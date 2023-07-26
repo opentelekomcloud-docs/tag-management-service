@@ -62,7 +62,7 @@ Request
 
    .. code-block:: text
 
-      POST https://TMS endpoint/v1.0/predefine_tags/action
+      POST https://{TMS endpoint}/v1.0/predefine_tags/action
 
    .. code-block::
 
