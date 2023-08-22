@@ -12,16 +12,16 @@ If you have inventory tags, you can quickly import them to the TMS predefined ta
 
 The predefined tag import function allows you to import the .csv file exported from a third party to TMS. The encoding format of the .csv file must be UTF-8.
 
-If duplicate content exists between the current environment and the imported file, the content of the current environment will be overwritten after the import.
+If duplicate tags exist between the current environment and the imported file, the tags of the current environment will be overwritten after the import.
 
 When editing tags to be imported, pay attention to the following restrictions:
 
--  Each user can create up to 500 predefined tags.
+-  You can create up to 500 predefined tags.
 -  You can enter a maximum of 36 and 43 characters for **Key** and **Value**, respectively. Both **Key** and **Value** can contain only digits, letters, hyphens (-), at signs (@), and underscores (_).
 
 .. important::
 
-   Predefined tag importation does not support .csv files that have been modified in Excel. Attempting to import such files will produce garbled characters and result in an importation failure. To edit a .csv file, open it with notepad.
+   Predefined tag importation does not support .csv files that have been modified in Excel files. Attempting to import such files will produce garbled characters and result in an importation failure. To edit a .csv file, open it with notepad.
 
 To import predefined tags, perform the following steps:
 
@@ -29,7 +29,7 @@ To import predefined tags, perform the following steps:
 
 #. Under **Management & Deployment**, select **Tag Management Service**.
 
-#. Choose **Predefined Tags**.
+#. Click **Predefined Tags**.
 
 #. Click **Download template (CSV file)**.
 
@@ -52,7 +52,7 @@ To export predefined tags for editing, perform the following steps:
 
 #. Under **Management & Deployment**, select **Tag Management Service**.
 
-#. Choose **Predefined Tags**.
+#. Click **Predefined Tags**.
 
 #. Select the predefined tags you want to export.
 

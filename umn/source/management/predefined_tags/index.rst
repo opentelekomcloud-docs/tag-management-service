@@ -15,7 +15,7 @@ Predefined Tags
    :maxdepth: 1
    :hidden: 
 
-   predefined_tag_overview
+   overview
    creating_predefined_tags
    searching_for_predefined_tags
    deleting_predefined_tags

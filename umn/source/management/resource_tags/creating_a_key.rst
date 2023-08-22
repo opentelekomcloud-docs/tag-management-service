@@ -2,12 +2,13 @@
 
 .. _en-us_topic_0058373670:
 
-Creating Keys
-=============
+Creating a Key
+==============
 
 To add a tag with the same tag key to all resources in the search result list, you can use the tag key creation function.
 
 After being created, the tag key is displayed in the list and all default statuses in the key column are **No tagged**. You can add a tag value to a cloud resource in the list to make the tag take effect.
+
 
 Creating a Key
 --------------
@@ -20,7 +21,7 @@ Creating a Key
 
 #. Click **Search**.
 
-#. In the search result list, select the target resource and click **Create Key** in the upper left corner.
+#. In the **Search Result** list, select the target resource and click **Create Key** in the upper left corner.
 
 #. Specify a key.
 
@@ -37,7 +38,7 @@ Follow-up Procedure
 
 To add a tag to a resource when a tag key has been created, perform the following steps:
 
-#. Click **Edit** in the upper right corner of the search result list.
+#. In the upper right corner of the **Search Result** list, click **Edit**.
 
    The tag list enters the editable state.
 

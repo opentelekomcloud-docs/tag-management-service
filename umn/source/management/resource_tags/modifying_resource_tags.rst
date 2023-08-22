@@ -5,8 +5,8 @@
 Modifying Resource Tags
 =======================
 
-Modifying a Tag for One Cloud Resource
---------------------------------------
+Modifying a Tag for a Cloud Resource
+------------------------------------
 
 When modifying the tag for a single resource, you can modify only the cloud resources that contain the tag.
 
@@ -20,17 +20,17 @@ When modifying the tag for a single resource, you can modify only the cloud reso
 
    For the search results, you can perform two operations: edit and view.
 
-#. In the upper right corner of the search result list, click **Edit**.
+#. In the upper right corner of the **Search Result** list, click **Edit**.
 
 #. (Optional) Set the key display list.
 
    If the key of the tag to be modified is not displayed in the list, perform the following steps:
 
-   a. Click |image1| in the upper right of the **Search Result** area.
+   a. In the upper right corner of the **Search Result** list, click |image1|.
 
    b. Select the key of the tag to be modified from the drop-down list.
 
-      You are advised not to select more than 20 keys to display.
+      You are advised not to select more than 10 keys to display.
 
 #. Locate the row containing the cloud resource whose tag you want to modify and click |image2|.
 
@@ -40,7 +40,7 @@ When modifying the tag for a single resource, you can modify only the cloud reso
 
    After the resource tag is modified, the cloud resources can be managed based on the new tag.
 
-#. (Optional) Click |image4| in the upper right of the **Search Result** area.
+#. (Optional) In the upper right corner of the **Search Result** list, click |image4|.
 
    The cloud resource tag list is refreshed and the list refresh time is updated.
 
@@ -69,7 +69,7 @@ You can only batch modify the cloud resources containing the tags. For details, 
 
    After the resource tag is modified, the cloud resources can be managed based on the new tag.
 
-#. (Optional) Click |image5| in the upper right of the **Search Result** area.
+#. (Optional) In the upper right corner of the **Search Result** list, click |image5|.
 
    The cloud resource tag list is refreshed and the list refresh time is updated.
 

@@ -13,13 +13,13 @@ TMS provides the following search criteria:
 -  **Resource Type**
 -  (Optional) **Resource Tag**
 
-   -  You can search for up to 20 tags at a time.
+   -  You can search for up to 10 tags at a time.
    -  To search for specified tags, entering a key is mandatory but entering a value is optional. You can add 9 values for each key.
    -  When you specify the search criteria, the cloud resources you want to search for must meet all of the key criteria and at least one of the value criteria.
 
--  **(Optional)** **Search Without Tags**
+-  **(Optional)** Search for only resources that are not tagged.
 
-   -  You can search for resources without any tags.
+   -  You can search for resources that are not tagged.
 
 
 Searching for Cloud Resources
@@ -33,4 +33,4 @@ Searching for Cloud Resources
 
 #. Click **Search**.
 
-   The target resources are displayed in the **Search Result** area.
+   The target resources are displayed in the **Search Result** list.
