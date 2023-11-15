@@ -1,9 +1,12 @@
-:original_name: en-us_topic_0056266261.html
+:original_name: en-us_topic_0056130823.html
 
-.. _en-us_topic_0056266261:
+.. _en-us_topic_0056130823:
+
+Getting Started
+===============
 
 Adding Tags to Cloud Resources
-==============================
+------------------------------
 
 You can add tags to cloud resources in either of the following ways:
 
@@ -44,7 +47,7 @@ Adding Tags on the TMS Console
 
 #. In the **Add Tag** area, enter a tag key and a tag value.
 
-   You can also directly select predefined tags from the drop-down list.
+   You can also directly select existing tags from the drop-down list.
 
 #. Click **OK**.
 
