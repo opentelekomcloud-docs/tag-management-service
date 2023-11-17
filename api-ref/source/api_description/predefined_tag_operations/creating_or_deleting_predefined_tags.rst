@@ -80,16 +80,12 @@ Request
           ]
       }
 
-Response
---------
+Example Response
+----------------
 
--  Parameter description
+**Status code: 200**
 
-   None
-
--  Example response
-
-   None
+Successful operation
 
 Status Codes
 ------------
