@@ -35,13 +35,13 @@ Procedure
 
       **Figure 1** Filtering connections
 
-   -  **Trace Source**, **Resource Type**, and **Search By**
+   -  **Trace Source**, **Resource Type**, and **Search By**:
 
       Select the desired content from the drop-down lists one by one.
 
       When you select **Trace name** for **Search By**, select a trace name.
 
-      When you select **Resource ID** for **Search By**, enter a resource ID.
+      If you select **Resource ID** for **Search By**, specify a resource ID.
 
       When you select **Resource name** for **Search By**, select or enter a resource name.
 

@@ -12,7 +12,7 @@ The following are basic constraints on using tags:
    +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Item                                                                 | Specifications                                                                                                                                                                                        |
    +======================================================================+=======================================================================================================================================================================================================+
-   | Maximum number of key-value pairs you can add for each resource      | 10                                                                                                                                                                                                    |
+   | Maximum number of key-value pairs you can add for each resource      | 20                                                                                                                                                                                                    |
    +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Tags of each resource                                                | For each resource, each tag key must be unique, and each tag key can have only one tag value.                                                                                                         |
    +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -27,4 +27,4 @@ The following are basic constraints on using tags:
 
 .. note::
 
-   Only some resource types of certain services can be tagged. For details about the services and resource types supported by TMS, see :ref:`TMS and Other Services <en-us_topic_0056858747>`.
+   Not all resources are supported by TMS. For which services and resources are supported, see :ref:`TMS and Other Services <en-us_topic_0056858747>`..

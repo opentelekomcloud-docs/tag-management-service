@@ -28,4 +28,4 @@ TMS provides the following functions:
 
 .. note::
 
-   TMS is currently free of charge.
+   TMS is free of charge.

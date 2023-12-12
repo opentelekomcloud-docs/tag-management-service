@@ -7,7 +7,7 @@ TMS and Other Services
 
 -  Services that support TMS
 
-   TMS provides central management for all tags of the cloud resources listed in :ref:`Table 1 <en-us_topic_0056858747__table256483375112>`.
+   TMS allows you to manage resource tags centrally. For details about services supported by TMS, see :ref:`Table 1 <en-us_topic_0056858747__table256483375112>`.
 
    A cloud service can have multiple resource types. You can select a resource type as required on the TMS console and manage the tags of this type of resources in a centralized manner.
 
@@ -18,68 +18,84 @@ TMS and Other Services
       +------------------------------------+----------------------------------------+
       | Service                            | Resource Type                          |
       +====================================+========================================+
-      | VPC Endpoint (VPCEP)               | -  VPC-Endpoint                        |
-      |                                    |                                        |
-      |                                    | -  VPC-Endpoint service                |
-      +------------------------------------+----------------------------------------+
-      | Data Replication Service (DRS)     | -  DRS-Data Synchronization Task       |
-      |                                    | -  DRS-Disaster Recovery Task          |
-      |                                    | -  DRS-Backup Migration Task           |
-      |                                    | -  DRS-Online Migration Task           |
+      | Auto Scaling                       | AS-AS group                            |
       +------------------------------------+----------------------------------------+
       | Bare Metal Server (BMS)            | BMS-BMS                                |
       +------------------------------------+----------------------------------------+
-      | Elastic Cloud Server (ECS)         | ECS-ECS                                |
+      | Cloud Container Engine (CCE)       | CCE-Cluster                            |
       +------------------------------------+----------------------------------------+
-      | Virtual Private Cloud (VPC)        | -  VPC-VPC                             |
-      |                                    | -  VPC-Subnet                          |
+      | Cloud Server Backup Service (CSBS) | -  CSBS-Backup                         |
+      |                                    | -  CSBS-Backup policy                  |
       +------------------------------------+----------------------------------------+
-      | Elastic IP (EIP)                   | VPC-EIP                                |
+      | Cloud Search Service (CSS)         | CSS-Cluster                            |
       +------------------------------------+----------------------------------------+
-      | Elastic Volume Service (EVS)       | EVS-Disk                               |
+      | Cloud Backup and Recovery (CBR)    | CBR-Vault                              |
       +------------------------------------+----------------------------------------+
-      | Volume Backup Service (VBS)        | -  VBS-Backup                          |
-      |                                    | -  VBS-Backup policy                   |
+      | Distributed Cache Service (DCS)    | DCS-DCS                                |
       +------------------------------------+----------------------------------------+
-      | Auto Scaling                       | AS-AS group                            |
+      | Document Database Service (DDS)    | DDS-DB instance                        |
       +------------------------------------+----------------------------------------+
-      | Image Management Service (IMS)     | IMS-Private image                      |
+      | Dedicated Host                     | Dedicated host                         |
       +------------------------------------+----------------------------------------+
-      | Key Management Service (KMS)       | KMS-Key                                |
+      | Data Lake Insight (DLI)            | -  DLI-BasicDatasource                 |
+      |                                    | -  DLI-Queue                           |
+      +------------------------------------+----------------------------------------+
+      | Distributed Message Service (DMS)  | Kafka                                  |
       +------------------------------------+----------------------------------------+
       | Domain Name Service (DNS)          | -  DNS-Private zone                    |
       |                                    | -  DNS-PTR record                      |
       |                                    | -  DNS-Private record set              |
       +------------------------------------+----------------------------------------+
-      | Virtual Private Network (VPN)      | VPN-VPN                                |
+      | Data Replication Service (DRS)     | -  DRS-Data Synchronization Task       |
+      |                                    | -  DRS-Data Subscription Task          |
+      |                                    | -  DRS-Disaster Recovery Task          |
+      |                                    | -  DRS-Backup Migration Task           |
+      |                                    | -  DRS-Online Migration Task           |
       +------------------------------------+----------------------------------------+
-      | Scalable File Service (SFS)        | SFS-File system                        |
+      | Database Security Service (DBSS)   | DBSS                                   |
       +------------------------------------+----------------------------------------+
-      | Cloud Server Backup Service (CSBS) | -  CSBS-Backup                         |
-      |                                    | -  CSBS-Backup policy                  |
+      | Elastic Cloud Server (ECS)         | ECS-ECS                                |
+      +------------------------------------+----------------------------------------+
+      | Elastic IP (EIP)                   | EIP-EIP                                |
       +------------------------------------+----------------------------------------+
       | Elastic Load Balance (ELB)         | -  ELB-Enhanced load balancer          |
       |                                    | -  ELB-Enhanced load balancer listener |
       +------------------------------------+----------------------------------------+
-      | SMN                                | SMN-Topic                              |
-      +------------------------------------+----------------------------------------+
-      | Distributed Message Service (DMS)  | Kafka                                  |
-      +------------------------------------+----------------------------------------+
-      | Relational Database Service (RDS)  | RDS-DB instance                        |
-      +------------------------------------+----------------------------------------+
-      | MapReduce Service (MRS)            | MRS-Cluster                            |
-      +------------------------------------+----------------------------------------+
-      | Document Database Service (DDS)    | DDS-DB instance                        |
-      +------------------------------------+----------------------------------------+
-      | Web Application Firewall (WAF)     | WAF-domain                             |
-      +------------------------------------+----------------------------------------+
-      | Dedicated host                     | DeH-DeH                                |
-      +------------------------------------+----------------------------------------+
-      | Cloud Backup and Recovery (CBR)    | CBR-Vault                              |
+      | Elastic Volume Service (EVS)       | EVS-Disk                               |
       +------------------------------------+----------------------------------------+
       | GaussDB                            | GaussDB instance                       |
       +------------------------------------+----------------------------------------+
       | GaussDB NoSQL                      | GeminiDB-Instance                      |
+      +------------------------------------+----------------------------------------+
+      | Image Management Service (IMS)     | IMS-Private image                      |
+      +------------------------------------+----------------------------------------+
+      | Key Management Service (KMS)       | KMS-Key                                |
+      +------------------------------------+----------------------------------------+
+      | MapReduce Service (MRS)            | MRS-Cluster                            |
+      +------------------------------------+----------------------------------------+
+      | NAT Gateway                        | NAT-Public NAT gateway                 |
+      +------------------------------------+----------------------------------------+
+      | Object Storage Service (OBS)       | OBS-Bucket                             |
+      +------------------------------------+----------------------------------------+
+      | Relational Database Service (RDS)  | RDS-DB instance                        |
+      +------------------------------------+----------------------------------------+
+      | Scalable File Service (SFS)        | SFS-File system                        |
+      +------------------------------------+----------------------------------------+
+      | Simple Message Notification (SMN)  | Topic                                  |
+      +------------------------------------+----------------------------------------+
+      | Volume Backup Service (VBS)        | -  VBS-Backup                          |
+      |                                    | -  VBS-Backup policy                   |
+      +------------------------------------+----------------------------------------+
+      | VPC Endpoint (VPCEP)               | -  VPC-Endpoint                        |
+      |                                    |                                        |
+      |                                    | -  VPC-Endpoint service                |
+      +------------------------------------+----------------------------------------+
+      | Virtual Private Cloud (VPC)        | -  VPC-VPC                             |
+      |                                    | -  VPC-Subnet                          |
+      +------------------------------------+----------------------------------------+
+      | Virtual Private Network (VPN)      | VPN-VPN                                |
+      +------------------------------------+----------------------------------------+
+      | Web Application Firewall (WAF)     | WAF-Domain                             |
       +------------------------------------+----------------------------------------+
 
 -  Related services
