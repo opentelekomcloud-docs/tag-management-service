@@ -6,7 +6,7 @@ Tag Management Service - User Guide
    :maxdepth: 1
 
    product_profile/index
-   getting_started/index
+   getting_started
    management/index
    permissions_management/index
    interconnecting_with_cts/index

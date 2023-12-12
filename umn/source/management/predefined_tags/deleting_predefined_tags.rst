@@ -11,14 +11,14 @@ Deleting Predefined Tags
 
 #. Click **Predefined Tags**.
 
-#. Select the predefined tags you want to delete.
+#. Select the tags you need to delete.
 
-#. In the upper left corner of the list, click **Delete**.
+#. Click **Delete** above the predefined tag list.
 
-#. In the displayed **Delete Tag** dialog box, click **Yes**.
+#. In the displayed **Delete Tag** dialog box, click **OK**.
 
    The predefined tags have been deleted.
 
    .. note::
 
-      To delete a predefined tag, you can click **Delete** in the row where the predefined tag is located.
+      You can also click **Delete** in the **Operation** column to delete a specific tag.

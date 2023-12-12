@@ -5,13 +5,15 @@
 Overview
 ========
 
-By adding tags to resources under your account, you can classify resources. Tags are displayed in the table format for you to manage and you can edit multiple tags at a time.
+By adding tags to resources under your account, you can classify resources. Tags are displayed in the table format for you to manage and you can perform operations on multiple tags at a time.
 
-This section describes how to use tags to query resources and refresh, modify, and delete tags.
+This section describes how to query resources by tag, create tag keys, and update, modify, or delete resource tags.
 
 Constraints and Limitations
 ---------------------------
 
--  You can search for up to 10 tags at a time.
--  To search for specified tags, entering a key is mandatory but entering a value is optional. You can add 9 values for each key.
--  A tag key can contain a maximum of 36 characters, including only digits, letters, hyphens (-), at signs (@), and underscores (_).
+-  You can use up to 10 tags to query for resources at the same time.
+-  To search for specified tags, entering a key is mandatory but entering a value is optional.
+-  Each resource supports up to 20 key-value pairs.
+-  For each resource, each tag key must be unique, and each tag key can have only one tag value.
+-  You can enter a maximum of 36 and 43 characters for **Key** and **Value**, respectively. Both **Key** and **Value** can contain only digits, letters, hyphens (-), at signs (@), and underscores (_).

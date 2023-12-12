@@ -5,10 +5,12 @@
 Modifying Resource Tags
 =======================
 
+.. _en-us_topic_0056266267__section303626711947:
+
 Modifying a Tag for a Cloud Resource
 ------------------------------------
 
-When modifying the tag for a single resource, you can modify only the cloud resources that contain the tag.
+In this section, modifying a tag is through modifying the value of a tag key, and the corresponding tag key remains unchanged.
 
 #. Log in to the management console.
 
@@ -16,11 +18,11 @@ When modifying the tag for a single resource, you can modify only the cloud reso
 
 #. Set the resource search criteria.
 
+   For details, see :ref:`Searching for Resources <en-us_topic_0056266264>`.
+
 #. Click **Search**.
 
-   For the search results, you can perform two operations: edit and view.
-
-#. In the upper right corner of the **Search Result** list, click **Edit**.
+#. Click **Edit** in the upper right part of the **Search Result** area so that you can edit tag values in the list.
 
 #. (Optional) Set the key display list.
 
@@ -40,14 +42,16 @@ When modifying the tag for a single resource, you can modify only the cloud reso
 
    After the resource tag is modified, the cloud resources can be managed based on the new tag.
 
-#. (Optional) In the upper right corner of the **Search Result** list, click |image4|.
+   .. note::
 
-   The cloud resource tag list is refreshed and the list refresh time is updated.
+      To modify multiple tags of a resource, repeat the preceding steps. You can also select the target resource in the list and click **Manage Tag** above the list to modify one or more tags. For details, see :ref:`Modifying Tags for Multiple Cloud Resources <en-us_topic_0056266267__section1906940111333>`.
+
+.. _en-us_topic_0056266267__section1906940111333:
 
 Modifying Tags for Multiple Cloud Resources
 -------------------------------------------
 
-You can only batch modify the cloud resources containing the tags. For details, see the following steps.
+You can only modify tags of resources that have already been tagged.
 
 .. important::
 
@@ -59,22 +63,24 @@ You can only batch modify the cloud resources containing the tags. For details, 
 
 #. Set the resource search criteria.
 
+   For details, see :ref:`Searching for Resources <en-us_topic_0056266264>`.
+
 #. Click **Search**.
 
-#. Select the cloud resources whose tags are to be modified and click **Manage Tag** above the list.
+#. Select one or more target resources in the list and click **Manage Tag** above the list.
 
 #. In the **Edit Tag** area, specify new values for tags.
 
+   All tags of the target resources are displayed in the **Edit Tag** area. You can modify one or more tags as needed.
+
+   .. note::
+
+      To set different values of a tag for multiple cloud resources, see :ref:`Modifying a Tag for a Cloud Resource <en-us_topic_0056266267__section303626711947>`.
+
 #. Click **OK**.
 
-   After the resource tag is modified, the cloud resources can be managed based on the new tag.
-
-#. (Optional) In the upper right corner of the **Search Result** list, click |image5|.
-
-   The cloud resource tag list is refreshed and the list refresh time is updated.
+   Then you can use the modified tags to manage resources.
 
 .. |image1| image:: /_static/images/en-us_image_0238398847.png
 .. |image2| image:: /_static/images/en-us_image_0153920847.png
 .. |image3| image:: /_static/images/en-us_image_0153921664.png
-.. |image4| image:: /_static/images/en-us_image_0144407750.png
-.. |image5| image:: /_static/images/en-us_image_0144341732.png

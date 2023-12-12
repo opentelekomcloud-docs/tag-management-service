@@ -6,7 +6,7 @@ Product Profile
 ===============
 
 -  :ref:`Tag Management Service <en-us_topic_0071335169>`
--  :ref:`Projects <en-us_topic_0141727099>`
+-  :ref:`Projects <tms_02_0008>`
 -  :ref:`Region and AZ <tms_01_0003>`
 -  :ref:`Application Scenarios <en-us_topic_0056266259>`
 -  :ref:`TMS and Other Services <en-us_topic_0056858747>`

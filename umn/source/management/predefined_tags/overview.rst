@@ -16,3 +16,4 @@ Constraints and Limitations
 
 -  You can create up to 500 predefined tags.
 -  You can enter a maximum of 36 and 43 characters for **Key** and **Value**, respectively. Both **Key** and **Value** can contain only digits, letters, hyphens (-), at signs (@), and underscores (_).
+-  A null value cannot be included in a predefined tag.

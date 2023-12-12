@@ -8,9 +8,7 @@ Quotas
 What Is Quota?
 --------------
 
-Quotas can limit the number or amount of resources available to users, such as the maximum number of ECSs or EVS disks that can be created.
-
-If the existing resource quota cannot meet your service requirements, you can apply for a higher quota.
+Quotas are the maximum amount of resources and capacity allowed for users to prevent waste. For example, you are allowed to create up to 500 predefined tags. You can request for an increase in quota if the existing quota does not meet your service requirements.
 
 How Do I View My Quotas?
 ------------------------
@@ -46,5 +44,5 @@ Before dialing the hotline number or sending an email, make sure that the follow
 
 `Learn how to obtain the service hotline and email address. <https://open-telekom-cloud.com/en/contact>`__
 
-.. |image1| image:: /_static/images/en-us_image_0275513364.png
-.. |image2| image:: /_static/images/en-us_image_0152727234.png
+.. |image1| image:: /_static/images/en-us_image_0000001701681948.png
+.. |image2| image:: /_static/images/en-us_image_0000001701522432.png
