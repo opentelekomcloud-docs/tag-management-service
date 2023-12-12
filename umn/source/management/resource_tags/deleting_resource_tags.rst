@@ -5,10 +5,10 @@
 Deleting Resource Tags
 ======================
 
-Deleting a Tag for One Cloud Resource
--------------------------------------
+Deleting a Tag for a Cloud Resource
+-----------------------------------
 
-To delete a predefined tag for one cloud resource, perform the following steps:
+To delete a predefined tag for a cloud resource, perform the following steps:
 
 #. Log in to the management console.
 
@@ -18,23 +18,23 @@ To delete a predefined tag for one cloud resource, perform the following steps:
 
    For the search results, you can perform two operations: edit and view.
 
-#. In the upper right corner of the search result list, click **Edit**.
+#. In the upper right corner of the **Search Result** list, click **Edit**.
 
 #. (Optional) Set the key display list.
 
    If the key of the tag to be deleted is not displayed in the list, perform the following steps:
 
-   a. Click |image1| in the upper right of the **Search Result** area.
+   a. In the upper right corner of the **Search Result** list, click |image1|.
 
    b. Select the key of the tag to be deleted from the drop-down list.
 
-      You are advised not to select more than 20 keys to display.
+      You are advised not to select more than 10 keys to display.
 
 #. Locate the row containing the resource whose tag you want to delete and click |image2|.
 
-   After the resource tag is deleted, the resource cannot be managed based on the deleted tag.
+   After a resource tag is deleted, resources cannot be managed based on the deleted tag.
 
-#. (Optional) Click |image3| in the upper right of the **Search Result** area.
+#. (Optional) In the upper right corner of the **Search Result** list, click |image3|.
 
    The cloud resource tag list is refreshed and the list refresh time is updated.
 
@@ -59,15 +59,15 @@ To delete predefined tags for multiple cloud resources, perform the following st
 
 #. Select the cloud resources whose tags you want to delete.
 
-#. Click **Manage Tag** in the upper left corner of the tag list.
+#. In the upper right corner of the **Search Result** list, click **Manage Tag**.
 
 #. In the **Edit Tag** area of the displayed **Manage Tag** dialog box, click **Delete** in the **Operation** column to delete the tags.
 
 #. Click **OK**.
 
-   After the resource tag is deleted, the resources cannot be managed based on the deleted tag.
+   After a resource tag is deleted, resources cannot be managed based on the deleted tag.
 
-#. (Optional) Click |image4| in the upper right of the **Search Result** area.
+#. (Optional) In the upper right corner of the **Search Result** list, click |image4|.
 
    The cloud resource tag list is refreshed and the list refresh time is updated.
 

@@ -5,11 +5,11 @@
 TMS and Other Services
 ======================
 
--  Services that support central management of tags
+-  Services that support TMS
 
    TMS provides central management for all tags of the cloud resources listed in :ref:`Table 1 <en-us_topic_0056858747__table256483375112>`.
 
-   A cloud service can contain multiple resource types. You can select a resource type as required on the TMS console and manage the tags of this type of resources in a centralized manner.
+   A cloud service can have multiple resource types. You can select a resource type as required on the TMS console and manage the tags of this type of resources in a centralized manner.
 
    .. _en-us_topic_0056858747__table256483375112:
 
@@ -41,13 +41,9 @@ TMS and Other Services
       | Volume Backup Service (VBS)        | -  VBS-Backup                          |
       |                                    | -  VBS-Backup policy                   |
       +------------------------------------+----------------------------------------+
-      | Auto Scaling (AS)                  | AS-AS group                            |
+      | Auto Scaling                       | AS-AS group                            |
       +------------------------------------+----------------------------------------+
       | Image Management Service (IMS)     | IMS-Private image                      |
-      +------------------------------------+----------------------------------------+
-      | Distributed Cache Service (DCS)    | DCS-DCS                                |
-      +------------------------------------+----------------------------------------+
-      | Workspace                          | Workspace-Desktop                      |
       +------------------------------------+----------------------------------------+
       | Key Management Service (KMS)       | KMS-Key                                |
       +------------------------------------+----------------------------------------+
@@ -65,25 +61,21 @@ TMS and Other Services
       | Elastic Load Balance (ELB)         | -  ELB-Enhanced load balancer          |
       |                                    | -  ELB-Enhanced load balancer listener |
       +------------------------------------+----------------------------------------+
-      | NAT Gateway                        | NAT-Public NAT gateway                 |
-      +------------------------------------+----------------------------------------+
       | SMN                                | SMN-Topic                              |
       +------------------------------------+----------------------------------------+
-      | Distributed Message Service (DMS)  | DMS-Queue                              |
+      | Distributed Message Service (DMS)  | Kafka                                  |
       +------------------------------------+----------------------------------------+
-      | Relational Database Service (RDS)  | DB instance                            |
+      | Relational Database Service (RDS)  | RDS-DB instance                        |
       +------------------------------------+----------------------------------------+
       | MapReduce Service (MRS)            | MRS-Cluster                            |
       +------------------------------------+----------------------------------------+
       | Document Database Service (DDS)    | DDS-DB instance                        |
       +------------------------------------+----------------------------------------+
-      | Web Application Firewall (WAF)     | -  WAF-Domain                          |
+      | Web Application Firewall (WAF)     | WAF-domain                             |
       +------------------------------------+----------------------------------------+
       | Dedicated host                     | DeH-DeH                                |
       +------------------------------------+----------------------------------------+
       | Cloud Backup and Recovery (CBR)    | CBR-Vault                              |
-      +------------------------------------+----------------------------------------+
-      | Distributed Cache Service (DCS)    | DCS-DCS                                |
       +------------------------------------+----------------------------------------+
       | GaussDB                            | GaussDB instance                       |
       +------------------------------------+----------------------------------------+

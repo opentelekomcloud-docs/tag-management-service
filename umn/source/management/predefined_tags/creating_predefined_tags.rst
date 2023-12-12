@@ -11,19 +11,19 @@ You can use predefined tags to quickly identify cloud resources. To create a pre
 
 #. Under **Management & Deployment**, select **Tag Management Service**.
 
-#. Choose **Predefined Tags**.
+#. Click **Predefined Tags**.
 
-#. Click **Create Tag**.
+#. In the upper right corner of the displayed page, click **Create Tag**.
 
    The **Create Tag** dialog box is displayed.
 
-#. Set **Key** and **Value**.
+#. Configure **Key** and **Value**.
 
 #. Click **OK**.
 
-   The predefined tag is created and displayed on the top of the predefined tag list.
+   The predefined tag is created and displayed on the top of the list.
 
 **Follow-up Procedure**
 -----------------------
 
-When adding a tag to a cloud resource, you can directly select the created predefined tag from the drop-down list box in the tag text box. You do not need to enter the key and value of the tag.
+When adding a tag to a cloud resource, you can directly select the created predefined tag from the drop-down list in the tag text box. You do not need to enter the key and value of the tag.

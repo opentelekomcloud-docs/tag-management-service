@@ -5,7 +5,7 @@
 Predefined Tags
 ===============
 
--  :ref:`Predefined Tag Overview <en-us_topic_0056266269>`
+-  :ref:`Overview <en-us_topic_0056266269>`
 -  :ref:`Creating Predefined Tags <en-us_topic_0144368884>`
 -  :ref:`Searching for Predefined Tags <tms_02_0010>`
 -  :ref:`Deleting Predefined Tags <en-us_topic_0056266273>`
@@ -15,7 +15,7 @@ Predefined Tags
    :maxdepth: 1
    :hidden: 
 
-   predefined_tag_overview
+   overview
    creating_predefined_tags
    searching_for_predefined_tags
    deleting_predefined_tags
