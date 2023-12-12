@@ -45,4 +45,4 @@ To add a tag to a resource when a tag key has been created, perform the followin
 
 #. Enter a tag value.
 
-.. |image1| image:: /_static/images/en-us_image_0000001369232010.png
+.. |image1| image:: /_static/images/en-us_image_0238414108.png

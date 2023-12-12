@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0101849254.html
+:original_name: tms_02_0002.html
 
-.. _en-us_topic_0101849254:
+.. _tms_02_0002:
 
 Resource Tags
 =============
@@ -9,7 +9,7 @@ Resource Tags
 -  :ref:`Searching for Cloud Resources <en-us_topic_0056266264>`
 -  :ref:`Creating Keys <en-us_topic_0058373670>`
 -  :ref:`Modifying Resource Tags <en-us_topic_0056266267>`
--  :ref:`Deleting Resource Tags <en-us_topic_0058373669>`
+-  :ref:`Deleting Resource Tags <tms_02_0006>`
 
 .. toctree::
    :maxdepth: 1

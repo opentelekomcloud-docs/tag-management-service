@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0110861800.html
+:original_name: tms_06_0001.html
 
-.. _en-us_topic_0110861800:
+.. _tms_06_0001:
 
 Interconnecting with CTS
 ========================

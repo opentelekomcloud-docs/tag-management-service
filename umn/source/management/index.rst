@@ -5,7 +5,7 @@
 Management
 ==========
 
--  :ref:`Resource Tags <en-us_topic_0101849254>`
+-  :ref:`Resource Tags <tms_02_0002>`
 -  :ref:`Predefined Tags <en-us_topic_0101849262>`
 
 .. toctree::

@@ -7,7 +7,7 @@ Predefined Tags
 
 -  :ref:`Predefined Tag Overview <en-us_topic_0056266269>`
 -  :ref:`Creating Predefined Tags <en-us_topic_0144368884>`
--  :ref:`Searching for Predefined Tags <en-us_topic_0056266270>`
+-  :ref:`Searching for Predefined Tags <tms_02_0010>`
 -  :ref:`Deleting Predefined Tags <en-us_topic_0056266273>`
 -  :ref:`Importing or Exporting Predefined Tags <en-us_topic_0056266555>`
 

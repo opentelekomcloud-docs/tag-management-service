@@ -5,8 +5,8 @@
 Viewing CTS Traces
 ==================
 
-**Scenarios**
--------------
+Scenarios
+---------
 
 After CTS is enabled, it starts recording operations on cloud resources. The CTS management console stores the last seven days of operation records.
 
@@ -30,7 +30,7 @@ Procedure
 #. Specify filters as needed. The following filters are available:
 
 
-   .. figure:: /_static/images/en-us_image_0000001369232030.png
+   .. figure:: /_static/images/en-us_image_0281359204.png
       :alt: **Figure 1** Filtering connections
 
       **Figure 1** Filtering connections
@@ -45,7 +45,7 @@ Procedure
 
       When you select **Resource name** for **Search By**, select or enter a resource name.
 
-   -  **Operator**: Select a specific operator at the user level rather than the account level.
+   -  **Operator**: Select a specific operator at the user level rather than the tenant level.
 
    -  **Trace Status**: Select **All trace statuses**, **Normal**, **Warning**, or **Incident**.
 
@@ -54,7 +54,7 @@ Procedure
 6. Click |image2| on the left of the required trace to expand its details.
 
 
-   .. figure:: /_static/images/en-us_image_0000001420271697.png
+   .. figure:: /_static/images/en-us_image_0256814156.png
       :alt: **Figure 2** Trace details
 
       **Figure 2** Trace details
@@ -62,10 +62,10 @@ Procedure
 7. Click **View Trace** in the **Operation** column. On the displayed **View Trace** dialog box, the trace structure details are displayed.
 
 
-   .. figure:: /_static/images/en-us_image_0000001419952997.png
+   .. figure:: /_static/images/en-us_image_0154037918.png
       :alt: **Figure 3** View Trace
 
       **Figure 3** View Trace
 
-.. |image1| image:: /_static/images/en-us_image_0000001369711658.png
-.. |image2| image:: /_static/images/en-us_image_0000001369711662.jpg
+.. |image1| image:: /_static/images/en-us_image_0000001223893863.png
+.. |image2| image:: /_static/images/en-us_image_0256814153.jpg

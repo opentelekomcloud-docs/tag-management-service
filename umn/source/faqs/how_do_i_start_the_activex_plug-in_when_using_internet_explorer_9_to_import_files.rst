@@ -35,4 +35,4 @@ Procedure
 
 #. Click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0000001419953009.png
+.. |image1| image:: /_static/images/en-us_image_0141727097.png
