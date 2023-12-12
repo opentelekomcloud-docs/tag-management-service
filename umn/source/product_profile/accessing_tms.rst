@@ -5,12 +5,12 @@
 Accessing TMS
 =============
 
-The cloud platform provides a web-based service management platform You can access TMS through the management console, or HTTPS-compliant application programming interfaces (APIs).
+The cloud platform provides a web-based service management platform. You can use either of the following ways to access TMS:
 
--  Using APIs
+-  APIs
 
-   To integrate TMS on the cloud platform into a third-party system for secondary development, use APIs to access TMS. For details, see *Tag Management Service API ReferenceTag Management Service API Reference*.
+   To integrate TMS into a third-party system for secondary development, call APIs to access TMS. For details, see *Tag Management Service API ReferenceTag Management Service API Reference*.
 
--  Through the management console
+-  Management console
 
    The management console is a web user interface for you to manage your compute, storage, and other cloud resources. Tenants and users who have registered with the cloud platform can access TMS by selecting **Tag Management Service** under **Management & Deployment** on the management console.

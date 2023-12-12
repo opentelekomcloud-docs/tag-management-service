@@ -5,18 +5,20 @@
 Resource Tags
 =============
 
--  :ref:`Resource Tag Overview <en-us_topic_0056266263>`
+-  :ref:`Overview <en-us_topic_0056266263>`
 -  :ref:`Searching for Cloud Resources <en-us_topic_0056266264>`
--  :ref:`Creating Keys <en-us_topic_0058373670>`
+-  :ref:`Creating a Key <en-us_topic_0058373670>`
 -  :ref:`Modifying Resource Tags <en-us_topic_0056266267>`
 -  :ref:`Deleting Resource Tags <tms_02_0006>`
+-  :ref:`Adding Tags to Resources <tms_02_0003>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   resource_tag_overview
+   overview
    searching_for_cloud_resources
-   creating_keys
+   creating_a_key
    modifying_resource_tags
    deleting_resource_tags
+   adding_tags_to_resources

@@ -2,8 +2,8 @@
 
 .. _tms_faq_0008:
 
-How to Restore an Invalid Tag?
-==============================
+How Can I Restore an Invalid Tag?
+=================================
 
 If an invalid tag appears, |image1| is displayed in the resource tag list, then you need to manually restore the invalid tag.
 

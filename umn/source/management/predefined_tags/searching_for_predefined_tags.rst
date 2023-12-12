@@ -9,13 +9,13 @@ Searching for Predefined Tags
 
 #. Under **Management & Deployment**, select **Tag Management Service**.
 
-#. Choose **Predefined Tags**.
+#. Click **Predefined Tags**.
 
-#. In the filter boxes, enter a value or key to search for tags.
+#. In the filter boxes, enter a tag value or tag key to search for tags.
 
 #. Click **Search**.
 
-   The search result is displayed in the predefined tag list.
+   The target predefined tags are displayed.
 
    Click |image1| if you want to refresh the predefined tag list.
 

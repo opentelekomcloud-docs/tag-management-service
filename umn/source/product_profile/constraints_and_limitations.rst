@@ -5,10 +5,26 @@
 Constraints and Limitations
 ===========================
 
-The following are basic restrictions on the tag usage:
+The following are basic constraints on using tags:
 
--  Each resource supports up to 10 key-value pairs.
--  For each resource, each tag must be unique.
--  Each user can create up to 500 predefined tags.
--  If the created predefined tag is the same as an existing predefined tag, the existing predefined tag is overwritten. If only keys are the same and values are different, the new predefined tag is created.
--  You can enter a maximum of 36 and 43 characters for **Key** and **Value**, respectively. Both **Key** and **Value** can contain only digits, letters, hyphens (-), at signs (@), and underscores (_).
+.. table:: **Table 1** Constraints
+
+   +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Item                                                                 | Specifications                                                                                                                                                                                        |
+   +======================================================================+=======================================================================================================================================================================================================+
+   | Maximum number of key-value pairs you can add for each resource      | 10                                                                                                                                                                                                    |
+   +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Tags of each resource                                                | For each resource, each tag key must be unique, and each tag key can have only one tag value.                                                                                                         |
+   +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Maximum number of predefined tags that you can create for an account | 500                                                                                                                                                                                                   |
+   +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Predefined tags                                                      | If the created predefined tag is the same as an existing predefined tag, the existing predefined tag is overwritten. If only keys are the same and values are different, both the tags are available. |
+   +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Tag keys                                                             | A tag key can contain a maximum of 36 characters, including only digits, letters, hyphens (-), at signs (@), and underscores (_).                                                                     |
+   +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Tag values                                                           | A tag value can contain a maximum of 43 characters, including only digits, letters, hyphens (-), at signs (@), and underscores (_).                                                                   |
+   +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. note::
+
+   Only some resource types of certain services can be tagged. For details about the services and resource types supported by TMS, see :ref:`TMS and Other Services <en-us_topic_0056858747>`.

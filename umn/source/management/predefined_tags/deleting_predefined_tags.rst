@@ -9,15 +9,15 @@ Deleting Predefined Tags
 
 #. Under **Management & Deployment**, select **Tag Management Service**.
 
-#. Choose **Predefined Tags**.
+#. Click **Predefined Tags**.
 
 #. Select the predefined tags you want to delete.
 
-#. Click **Delete** in the upper left of the tag list.
+#. In the upper left corner of the list, click **Delete**.
 
-#. Click **Yes**.
+#. In the displayed **Delete Tag** dialog box, click **Yes**.
 
-   The tags have been deleted.
+   The predefined tags have been deleted.
 
    .. note::
 
