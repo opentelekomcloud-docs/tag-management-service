@@ -32,10 +32,10 @@ Procedure
 
    -  Invalid tag value
 
-      In the **Edit Tag** area, specify a new value.
+      In the **Edit Tag** area, specify new values for tags.
 
 #. Click **OK**.
 
    The invalid tag has been restored.
 
-.. |image1| image:: /_static/images/en-us_image_0000001420271717.png
+.. |image1| image:: /_static/images/en-us_image_0141727107.png

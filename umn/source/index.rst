@@ -8,7 +8,9 @@ Tag Management Service - User Guide
    product_profile/index
    getting_started/index
    management/index
+   permissions_management/index
    interconnecting_with_cts/index
+   quotas
    faqs/index
    change_history
    glossary

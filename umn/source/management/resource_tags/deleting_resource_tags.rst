@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0058373669.html
+:original_name: tms_02_0006.html
 
-.. _en-us_topic_0058373669:
+.. _tms_02_0006:
 
 Deleting Resource Tags
 ======================
@@ -71,7 +71,7 @@ To delete predefined tags for multiple cloud resources, perform the following st
 
    The cloud resource tag list is refreshed and the list refresh time is updated.
 
-.. |image1| image:: /_static/images/en-us_image_0000001369232034.png
-.. |image2| image:: /_static/images/en-us_image_0000001420151821.png
-.. |image3| image:: /_static/images/en-us_image_0000001420271709.png
-.. |image4| image:: /_static/images/en-us_image_0000001369551670.png
+.. |image1| image:: /_static/images/en-us_image_0145874750.png
+.. |image2| image:: /_static/images/en-us_image_0141727100.png
+.. |image3| image:: /_static/images/en-us_image_0144409833.png
+.. |image4| image:: /_static/images/en-us_image_0144409831.png

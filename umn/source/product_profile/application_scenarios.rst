@@ -13,13 +13,13 @@ Central Management of Resources
 For users who have many cloud resources, TMS allows them to quickly locate all of their resources with specific tags. TMS also provides a unified tag management platform, on which users can check, modify, or delete tags.
 
 
-.. figure:: /_static/images/en-us_image_0000001369391742.png
+.. figure:: /_static/images/en-us_image_0174331264.png
    :alt: **Figure 1** Central management of resources
 
    **Figure 1** Central management of resources
 
-Quick Identification of Resources to Be Migrated and Have Been Migrated
------------------------------------------------------------------------
+Quick Identification of Resources Migrated and to Be Migrated
+-------------------------------------------------------------
 
 For users who need to migrate large numbers of resources, TMS allows for the import and export of predefined tags. This improves the accuracy and efficiency of resource migration while eliminating the need to set tags each time.
 
@@ -28,7 +28,7 @@ For users who need to migrate large numbers of resources, TMS allows for the imp
 -  Importing and exporting predefined tags: If you have inventory tags, you can quickly import them to the predefined tag library of TMS. After resources are migrated, you can associate those resources with predefined tags. In addition, you can export predefined tags for editing.
 
 
-   .. figure:: /_static/images/en-us_image_0000001369711678.png
-      :alt: **Figure 2** Quick identification of resources to be migrated and have been migrated
+   .. figure:: /_static/images/en-us_image_0000001079874496.png
+      :alt: **Figure 2** Quick identification of resources migrated and to be migrated
 
-      **Figure 2** Quick identification of resources to be migrated and have been migrated
+      **Figure 2** Quick identification of resources migrated and to be migrated

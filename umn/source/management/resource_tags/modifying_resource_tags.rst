@@ -73,8 +73,8 @@ You can only batch modify the cloud resources containing the tags. For details, 
 
    The cloud resource tag list is refreshed and the list refresh time is updated.
 
-.. |image1| image:: /_static/images/en-us_image_0000001369391718.png
-.. |image2| image:: /_static/images/en-us_image_0000001369232022.png
-.. |image3| image:: /_static/images/en-us_image_0000001420271693.png
-.. |image4| image:: /_static/images/en-us_image_0000001369711646.png
-.. |image5| image:: /_static/images/en-us_image_0000001420151809.png
+.. |image1| image:: /_static/images/en-us_image_0238398847.png
+.. |image2| image:: /_static/images/en-us_image_0153920847.png
+.. |image3| image:: /_static/images/en-us_image_0153921664.png
+.. |image4| image:: /_static/images/en-us_image_0144407750.png
+.. |image5| image:: /_static/images/en-us_image_0144341732.png

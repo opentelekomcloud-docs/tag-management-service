@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0056266270.html
+:original_name: tms_02_0010.html
 
-.. _en-us_topic_0056266270:
+.. _tms_02_0010:
 
 Searching for Predefined Tags
 =============================
@@ -19,4 +19,4 @@ Searching for Predefined Tags
 
    Click |image1| if you want to refresh the predefined tag list.
 
-.. |image1| image:: /_static/images/en-us_image_0000001419953001.png
+.. |image1| image:: /_static/images/en-us_image_0141727063.png

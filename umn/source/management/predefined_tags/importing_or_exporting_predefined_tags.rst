@@ -33,7 +33,7 @@ To import predefined tags, perform the following steps:
 
 #. Click **Download template (CSV file)**.
 
-#. Fill in the template as prompted.
+#. Fill in the template by referring to the format of existing tags.
 
 #. Click **Import** and select the target file.
 
@@ -44,7 +44,7 @@ To import predefined tags, perform the following steps:
 Exporting Predefined Tags
 -------------------------
 
-Tag files or templates downloaded with Internet Explorer 9 cannot be imported into other browsers. Those downloaded with other browsers cannot be imported into Internet Explorer 9.
+Tag files or templates downloaded with Internet Explorer 9 cannot be imported to TMS via other browsers. Those downloaded with other browsers cannot be imported to TMS via Internet Explorer 9.
 
 To export predefined tags for editing, perform the following steps:
 
@@ -58,4 +58,4 @@ To export predefined tags for editing, perform the following steps:
 
 #. Click **Export**.
 
-   The system saves the exported .csv file and the predefined tags are exported successfully.
+   A .csv file is generated.

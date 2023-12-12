@@ -9,7 +9,7 @@ You can add tags to cloud resources in either of the following ways:
 
 -  Adding tags on the TMS console
 
-   When you need to tag a batch of cloud resources, you are advised to add tags on the TMS console.
+   When you need to tag a batch of cloud resources, add tags on the TMS console.
 
 -  Adding tags on the consoles of other cloud services
 
@@ -17,13 +17,14 @@ You can add tags to cloud resources in either of the following ways:
 
    .. note::
 
-      You are advised to use the predefined tag function. To tag a cloud resource, you can select a created predefined tag from the drop-down list, without entering a key and value for the tag. This reduces the errors and improves the efficiency.
+      -  You are advised to use the predefined tag function. To tag a cloud resource, you can select a created predefined tag from the drop-down list, without entering a key and value for the tag. This reduces the errors and improves the efficiency.
+      -  It is strongly recommended that you do not place confidential or sensitive information (such as your customer's name, email address, or mobile number) in the tag field.
 
 Constraints
 -----------
 
 -  Each resource supports up to 10 key-value pairs.
--  For each resource, each tag key must be unique, and each tag key can have only one tag value. If the tag value you add is the same as an existing one on the resource, the new value overwrites the old value.
+-  For each resource, each tag key must be unique, and each tag key can have only one tag value.
 -  You can enter a maximum of 36 and 43 characters for **Key** and **Value**, respectively. Both **Key** and **Value** can contain only digits, letters, hyphens (-), at signs (@), and underscores (_).
 
 Adding Tags on the TMS Console
