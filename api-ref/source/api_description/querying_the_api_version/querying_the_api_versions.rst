@@ -2,7 +2,7 @@
 
 .. _en-us_topic_0133313256:
 
-Querying All API Versions
+Querying the API Versions
 =========================
 
 Function
@@ -23,10 +23,6 @@ Example request
 .. code-block:: text
 
    GET https://{TMS endpoint}/
-
-.. note::
-
-   Domain-level tokens are required for invoking TMS APIs. For details, see :ref:`Obtaining the Domain-Level Token <en-us_topic_0186103096>`.
 
 Response
 --------
@@ -62,7 +58,7 @@ Response
       +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
       | status                | String                | Specifies the version status.                                                                                                                     |
       |                       |                       |                                                                                                                                                   |
-      |                       |                       | Possible values are as follows:                                                                                                                   |
+      |                       |                       | Possible statuses are as follows:                                                                                                                 |
       |                       |                       |                                                                                                                                                   |
       |                       |                       | -  **CURRENT**: indicates that the version is the primary version.                                                                                |
       |                       |                       | -  **SUPPORTED**: indicates that the version is an old version, but it is still supported.                                                        |
@@ -111,9 +107,9 @@ Response
 Status Codes
 ------------
 
-See :ref:`Status Code <en-us_topic_0130578970>`.
+See :ref:`Status Codes <en-us_topic_0130578970>`.
 
 Error Codes
 -----------
 
-See :ref:`Error Code Description <en-us_topic_0057939857>`.
+See :ref:`Error Codes <en-us_topic_0057939857>`.

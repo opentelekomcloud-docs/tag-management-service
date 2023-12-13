@@ -22,19 +22,19 @@ Request
 
    .. table:: **Table 1** Parameters in the request
 
-      +-----------------+-----------------+-----------------------+--------------------------------------------------------------------------------+
-      | Name            | Mandatory       | Type                  | Description                                                                    |
-      +=================+=================+=======================+================================================================================+
-      | old_tag         | Yes             | predefine_tag_request | Specifies the tag to be modified.                                              |
-      |                 |                 |                       |                                                                                |
-      |                 |                 |                       | For details, see :ref:`Table 2 <en-us_topic_0060929630__table62639743182827>`. |
-      +-----------------+-----------------+-----------------------+--------------------------------------------------------------------------------+
-      | new_tag         | Yes             | predefine_tag_request | Specifies the tag that has been modified.                                      |
-      |                 |                 |                       |                                                                                |
-      |                 |                 |                       | For details, see :ref:`Table 2 <en-us_topic_0060929630__table62639743182827>`. |
-      +-----------------+-----------------+-----------------------+--------------------------------------------------------------------------------+
+      +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------+
+      | Name            | Mandatory       | Type            | Description                                                                    |
+      +=================+=================+=================+================================================================================+
+      | old_tag         | Yes             | Object          | Specifies the tag to be modified.                                              |
+      |                 |                 |                 |                                                                                |
+      |                 |                 |                 | For details, see :ref:`Table 2 <en-us_topic_0060929630__table62639743182827>`. |
+      +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------+
+      | new_tag         | Yes             | Object          | Specifies the tag that has been modified.                                      |
+      |                 |                 |                 |                                                                                |
+      |                 |                 |                 | For details, see :ref:`Table 3 <en-us_topic_0060929630__table39454339814>`.    |
+      +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------+
 
--  **predefine_tag_requ**\ **est** field description
+-  **old_tag** field description
 
    .. _en-us_topic_0060929630__table62639743182827:
 
@@ -45,11 +45,29 @@ Request
       +=================+=================+=================+========================================================================================================================================================+
       | key             | Yes             | String          | Specifies the key.                                                                                                                                     |
       |                 |                 |                 |                                                                                                                                                        |
-      |                 |                 |                 | It cannot be left blank and can contain a maximum of 36 Unicode characters. Can contain only digits, letters, hyphens (-), and underscores (_).        |
+      |                 |                 |                 | It cannot be left blank and can contain a maximum of 36 Unicode characters. Only digits, letters, hyphens (-), and underscores (_) are allowed.        |
       +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
       | value           | Yes             | String          | Specifies the value.                                                                                                                                   |
       |                 |                 |                 |                                                                                                                                                        |
-      |                 |                 |                 | Each value contains a maximum of 43 Unicode characters and can be an empty string. Can contain only digits, letters, hyphens (-), and underscores (_). |
+      |                 |                 |                 | Each value contains a maximum of 43 Unicode characters and can be an empty string. Only digits, letters, hyphens (-), and underscores (_) are allowed. |
+      +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+-  **new_tag** field description
+
+   .. _en-us_topic_0060929630__table39454339814:
+
+   .. table:: **Table 3** Parameter description
+
+      +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Name            | Mandatory       | Type            | Description                                                                                                                                            |
+      +=================+=================+=================+========================================================================================================================================================+
+      | key             | Yes             | String          | Specifies the key.                                                                                                                                     |
+      |                 |                 |                 |                                                                                                                                                        |
+      |                 |                 |                 | It cannot be left blank and can contain a maximum of 36 Unicode characters. Only digits, letters, hyphens (-), and underscores (_) are allowed.        |
+      +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | value           | Yes             | String          | Specifies the value.                                                                                                                                   |
+      |                 |                 |                 |                                                                                                                                                        |
+      |                 |                 |                 | Each value contains a maximum of 43 Unicode characters and can be an empty string. Only digits, letters, hyphens (-), and underscores (_) are allowed. |
       +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 -  Example request
@@ -85,9 +103,9 @@ Response
 Status Codes
 ------------
 
-See :ref:`Status Code <en-us_topic_0130578970>`.
+See :ref:`Status Codes <en-us_topic_0130578970>`.
 
 Error Codes
 -----------
 
-See :ref:`Error Code Description <en-us_topic_0057939857>`.
+See :ref:`Error Codes <en-us_topic_0057939857>`.

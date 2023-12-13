@@ -115,9 +115,9 @@ Response
 Status Codes
 ------------
 
-For details, see :ref:`Status Code <en-us_topic_0130578970>`.
+See :ref:`Status Codes <en-us_topic_0130578970>`.
 
 Error Codes
 -----------
 
-For details, see :ref:`Error Code Description <en-us_topic_0057939857>`.
+See :ref:`Error Codes <en-us_topic_0057939857>`.
