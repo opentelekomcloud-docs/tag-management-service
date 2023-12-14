@@ -84,6 +84,10 @@ Response
 
 -  Example response
 
+   **Status code: 200**
+
+   Successful operation
+
    .. code-block::
 
       {
