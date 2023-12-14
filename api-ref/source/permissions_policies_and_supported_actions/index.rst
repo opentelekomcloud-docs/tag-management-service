@@ -5,12 +5,12 @@
 Permissions Policies and Supported Actions
 ==========================================
 
--  :ref:`Permissions Policies and Supported Actions <en-us_topic_0180205868>`
+-  :ref:`Introduction <en-us_topic_0180205868>`
 -  :ref:`TMS API Actions <en-us_topic_0180205869>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   permissions_policies_and_supported_actions
+   introduction
    tms_api_actions

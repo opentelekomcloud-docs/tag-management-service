@@ -23,10 +23,20 @@ Request
    .. table:: **Table 1** Parameters in the request
 
       =========== ========= ====== ==========================
-      Name        Mandatory Type   Description
+      Parameter   Mandatory Type   Description
       =========== ========= ====== ==========================
       api_version Yes       String Specifies the API version.
       =========== ========= ====== ==========================
+
+   .. _en-us_topic_0133313257__table89081516592:
+
+   .. table:: **Table 2** Request header parameters
+
+      +--------------+-----------+--------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter    | Mandatory | Type   | Description                                                                                                                                                                                                 |
+      +==============+===========+========+=============================================================================================================================================================================================================+
+      | X-Auth-Token | Yes       | String | Specifies the user token. TMS is a global service. When calling the IAM API to obtain a user token, set **scope** to **domain**. The value of **X-Subject-Token** in the response header is the user token. |
+      +--------------+-----------+--------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 -  Example request
 
@@ -39,21 +49,21 @@ Response
 
 -  Parameter description
 
-   .. table:: **Table 2** Parameters in the response
+   .. table:: **Table 3** Parameters in the response
 
       +-----------------------+-----------------------+-------------------------------------------------------------------------------+
       | Name                  | Type                  | Description                                                                   |
       +=======================+=======================+===============================================================================+
       | version               | object                | Specifies the version of a specified API.                                     |
       |                       |                       |                                                                               |
-      |                       |                       | For details, see :ref:`Table 3 <en-us_topic_0133313257__table7480934143011>`. |
+      |                       |                       | For details, see :ref:`Table 4 <en-us_topic_0133313257__table7480934143011>`. |
       +-----------------------+-----------------------+-------------------------------------------------------------------------------+
 
--  **version** field data structure
+-  **version** field description
 
    .. _en-us_topic_0133313257__table7480934143011:
 
-   .. table:: **Table 3** **version** field data structure description
+   .. table:: **Table 4** Parameter description
 
       +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
       | Name                  | Type                  | Description                                                                                                                                       |
@@ -62,7 +72,7 @@ Response
       +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
       | links                 | List<Link>            | Specifies the API URL.                                                                                                                            |
       |                       |                       |                                                                                                                                                   |
-      |                       |                       | For details, see :ref:`Table 4 <en-us_topic_0133313257__table86914347304>`.                                                                       |
+      |                       |                       | For details, see :ref:`Table 5 <en-us_topic_0133313257__table86914347304>`.                                                                       |
       +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
       | version               | String                | If the APIs of this version support microversions, set this parameter to the supported latest microversion. If not, leave this parameter blank.   |
       +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -79,11 +89,11 @@ Response
       | min_version           | String                | If the APIs of this version support microversions, set this parameter to the supported earliest microversion. If not, leave this parameter blank. |
       +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 
--  **Links** field data structure
+-  **Links** field description
 
    .. _en-us_topic_0133313257__table86914347304:
 
-   .. table:: **Table 4** **Links** field data structure description
+   .. table:: **Table 5** Parameter description
 
       ==== ====== ======================
       Name Type   Description

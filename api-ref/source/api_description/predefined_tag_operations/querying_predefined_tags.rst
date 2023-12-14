@@ -2,13 +2,13 @@
 
 .. _en-us_topic_0056765936:
 
-Querying the Predefined Tag List
-================================
+Querying Predefined Tags
+========================
 
 Function
 --------
 
-This API is used to query the predefined tag list.
+This API is used to query predefined tags.
 
 URI
 ---
