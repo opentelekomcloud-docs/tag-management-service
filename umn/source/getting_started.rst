@@ -26,12 +26,14 @@ You can add tags to cloud resources in either of the following ways:
 Constraints
 -----------
 
--  Each resource supports up to 10 key-value pairs.
+-  Each resource supports up to 20 key-value pairs.
 -  For each resource, each tag key must be unique, and each tag key can have only one tag value.
 -  You can enter a maximum of 36 and 43 characters for **Key** and **Value**, respectively. Both **Key** and **Value** can contain only digits, letters, hyphens (-), at signs (@), and underscores (_).
 
 Adding Tags on the TMS Console
 ------------------------------
+
+You can tag your resources using TMS to classify and manage your resources centrally.
 
 #. Log in to the management console.
 
@@ -39,7 +41,7 @@ Adding Tags on the TMS Console
 
 #. Set the resource search criteria.
 
-   For details, see :ref:`Searching for Cloud Resources <en-us_topic_0056266264>`.
+   For details, see :ref:`Searching for Resources <en-us_topic_0056266264>`.
 
 #. Click **Search**.
 
