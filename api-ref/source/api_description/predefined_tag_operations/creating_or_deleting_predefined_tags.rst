@@ -35,7 +35,7 @@ Request
       |                 |                 |                  |                                                                                                 |
       |                 |                 |                  | This parameter value is case sensitive and can be **create** or **delete**.                     |
       +-----------------+-----------------+------------------+-------------------------------------------------------------------------------------------------+
-      | tags            | Yes             | Array of objects | Specifies the tag list.                                                                         |
+      | tags            | Yes             | Array of objects | Specifies the tags.                                                                             |
       |                 |                 |                  |                                                                                                 |
       |                 |                 |                  | For details, see :ref:`Table 2 <en-us_topic_0056765935__en-us_topic_0056765542_table46817064>`. |
       +-----------------+-----------------+------------------+-------------------------------------------------------------------------------------------------+
