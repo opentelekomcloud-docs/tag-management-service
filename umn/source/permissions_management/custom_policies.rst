@@ -5,7 +5,7 @@
 Custom Policies
 ===============
 
-Custom policies can be created to supplement the predefined policies provided by TMS. For details about the actions available for custom policies, see :ref:`Permissions <tms_01_0009>`.
+Custom policies can be created to supplement the predefined policies provided by TMS. For the actions supported by custom policies, see :ref:`Permissions <tms_01_0009>`.
 
 You can create a custom policy in either of the following ways:
 

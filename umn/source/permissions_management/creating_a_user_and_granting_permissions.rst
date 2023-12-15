@@ -36,7 +36,7 @@ Flowchart
 
 #. `Log in <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0032.html>`__ and verify permissions.
 
-   The user-created log in to the console and verify permissions as described below:
+   The created user logs in to the console and verifies permissions as described below:
 
    -  Choose **Service List** > **Tag Management Service**. In the navigation pane on the left, click **Predefined Tags**. In the upper right corner of the displayed page, click **Create Tag**. If a message appears indicating that you have insufficient permissions to perform the operation, and if you can view existing predefined tags in the **Predefined Tags** page, the **TMS ReadOnlyAccess** policy is in effect.
    -  Choose another service from **Service List**. If a message appears indicating that you have insufficient permissions to access the service, the **TMS ReadOnlyAccess** policy is in effect.

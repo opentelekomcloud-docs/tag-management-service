@@ -73,6 +73,8 @@ To add one or more tags to multiple cloud resources, perform the following steps
 
 #. In the **Add Tag** area, add keys and values to create tags.
 
+   You can also directly select existing tags from the drop-down list.
+
    .. note::
 
       To add different tags to multiple cloud resources, see :ref:`Adding a Tag to One Resource <tms_02_0007__section303626711947>`.
