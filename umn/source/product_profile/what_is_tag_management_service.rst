@@ -2,12 +2,12 @@
 
 .. _en-us_topic_0071335169:
 
-Tag Management Service
-======================
+What Is Tag Management Service?
+===============================
 
-Tag Management Service (TMS) is a visualized service for quickly tagging and categorizing cloud services across fast and unified cross-regions.
+Tag Management Service (TMS) helps you centrally categorize and manage cloud resources across regions and services with tags.
 
-Tags are used to identify cloud resources. When you have cloud resources of the same type, you can use tags to classify cloud resources by dimension, for example, usage, owner, or environment.
+You can group cloud resources by usage, owner or the environment where the resources are deployed.
 
 .. _en-us_topic_0071335169__fig476135744:
 
@@ -18,11 +18,11 @@ Tags are used to identify cloud resources. When you have cloud resources of the 
 
 :ref:`Figure 1 <en-us_topic_0071335169__fig476135744>` shows how tags work. In this example, you assign two tags to each cloud resource. Each tag contains a key and a value that you define. The key of one tag is **Owner**, and that of another tag is **Usage**. Each tag has a value.
 
-You can quickly search for and filter specific cloud resources based on the tags added to them. For example, you can define a set of tags for cloud resources in an account to identify their owners and usage, making resource management easier.
+You can quickly search for and filter cloud resources based on the tags added to them. For example, if you define a set of tags to specify resource owners or usage and attach these tags to your resources, you can easily filter these resources by owner or usage.
 
 TMS provides the following functions:
 
--  Managing resources: Add tags to resources as needed to classify resources. TMS provides you with a visualized table to manage resource tags, including editing tags in batches.
+-  Resource management allows you to classify resources by tag. You can easily manage one tag or multiple tags at the same time in a visualized table.
 -  Searching for resources: Search for resources across services and regions regions by tag or by tag set.
 -  Predefined tag management: You can create, import, or export predefined tags. By predefining tags, you can plan tags according to your services to effectively manage tags.
 

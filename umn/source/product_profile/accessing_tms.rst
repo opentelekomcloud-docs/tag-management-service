@@ -13,4 +13,6 @@ The cloud platform provides a web-based service management platform. You can use
 
 -  Management console
 
-   The management console is a web user interface for you to manage your compute, storage, and other cloud resources. Users who have signed up withthe cloud platform can access TMS by selecting **Tag Management Service** under **Management & Deployment** on the management console.
+   Log in to the management console, click |image1| on the upper left corner, and choose **Tag Management Service** under **Management & Deployment**. The **Tag Management Service** page is displayed.
+
+.. |image1| image:: /_static/images/en-us_image_0000001783453144.png

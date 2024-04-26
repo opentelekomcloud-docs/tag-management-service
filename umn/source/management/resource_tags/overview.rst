@@ -5,14 +5,14 @@
 Overview
 ========
 
-By adding tags to resources under your account, you can classify resources. Tags are displayed in the table format for you to manage and you can perform operations on multiple tags at a time.
+TMS allows you to easily classify and search for your resources with tags. You can manage multiple tags in a list view.
 
 This section describes how to query resources by tag, create tag keys, and update, modify, or delete resource tags.
 
 Constraints and Limitations
 ---------------------------
 
--  You can use up to 10 tags to query for resources at the same time.
+-  Up to 10 tags can be specified to query for resources at a time.
 -  To search for specified tags, entering a key is mandatory but entering a value is optional.
 -  Each resource supports up to 20 key-value pairs.
 -  For each resource, each tag key must be unique, and each tag key can have only one tag value.

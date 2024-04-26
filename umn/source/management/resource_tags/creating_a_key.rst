@@ -27,7 +27,7 @@ Creating a Key
 
 #. Specify a key.
 
-   The key can contain a maximum of 36 characters, including only digits, letters, hyphens (-), at signs (@), and underscores (_).
+   A tag key can contain a maximum of 36 characters, including only digits, letters, hyphens (-), at signs (@), and underscores (_).
 
 #. Click **OK**.
 
@@ -48,7 +48,7 @@ To add a tag to a resource when a tag key has been created, perform the followin
 
 #. Enter a tag value.
 
-#. Click |image2|.
+#. Click |image2|
 
    After the resource tag is modified, the cloud resources can be managed based on the new tag.
 

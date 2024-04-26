@@ -5,14 +5,7 @@
 Custom Policies
 ===============
 
-Custom policies can be created to supplement the predefined policies provided by TMS. For the actions supported by custom policies, see :ref:`Permissions <tms_01_0009>`.
-
-You can create a custom policy in either of the following ways:
-
--  Visual editor: Select cloud services, actions, resources, and request conditions. This does not require knowledge of policy syntax.
--  JSON: Create a JSON policy or edit an existing one.
-
-For details, see `Creating a Custom Policy <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0016.html>`__. Examples of common TMS custom policies are as follows:
+The following lists examples of custom policies for TMS.
 
 Example Custom Policies
 -----------------------

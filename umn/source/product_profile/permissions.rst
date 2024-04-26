@@ -7,11 +7,11 @@ Permissions
 
 If you need to assign different permissions to personnel in your enterprise to access your cloud resources, Identity and Access Management (IAM) is a good choice for fine-grained permissions management. IAM provides identity authentication, permissions management, and access control, helping you securely access your cloud resources.
 
-With IAM, you can use your account to create IAM users for your employees, and assign permissions to the users to control their access to specific resource types. For example, if you need to grant some users the permissions to view TMS resources, but don't want these users to delete predefined tags, you can create users using IAM and assign TMS ReadOnlyAccess permissions to these users.
+With IAM, you can create IAM users for your employees, and assign permissions to the users to control their access to specific resource types. For example, if you need to grant some users the permissions to view TMS resources, but do not want these users to delete predefined tags, you can create users using IAM and assign TMS ReadOnlyAccess permissions to these users.
 
 If your account does not require IAM for permissions management, you can skip this section.
 
-IAM is a free service. You only pay for the resources in your account. For more information about IAM, see `IAM Service Overview <https://docs.otc.t-systems.com/identity-access-management/umn/service_overview/what_is_iam.html>`__.
+IAM can be used free of charge. You pay only for the resources in your account. For more information about IAM, see `IAM Service Overview <https://docs.otc.t-systems.com/identity-access-management/umn/service_overview/what_is_iam.html>`__.
 
 .. _tms_01_0009__section1814075113611:
 
@@ -25,13 +25,13 @@ TMS is a global service deployed for all regions. When you set the authorization
 You can grant permissions by using roles and policies.
 
 -  Roles: A coarse-grained authorization strategy provided by IAM to assign permissions based on users' job responsibilities Only a limited number of service-level roles are available for authorization. When using roles to grant permissions, you must also assign other roles which the permissions depend on to take effect. Roles are not ideal for fine-grained authorization and least privilege access.
--  Policies: A fine-grained authorization strategy that defines permissions required to perform operations on specific cloud resources under certain conditions. This type of authorization is more flexible and is ideal for least privilege access. The administrator can restrict a user to only specified operations on TMS using IAM policies. For example, if the user is granted a fine-grained permission to only view predefined tags, the user cannot perform other operations on predefined tags (such as creating or deleting predefined tags) with this permission. A majority of fine-grained policies contain permissions for specific APIs. For the API actions supported by TMS, see section "Permissions Policies and Supported Actions" in the *Tag Management Service API Reference*.
+-  Policies: A fine-grained authorization strategy that defines permissions required to perform operations on specific cloud resources under certain conditions. This type of authorization is more flexible and is ideal for least privilege access. The administrator can restrict a user to only specified operations on TMS using IAM policies. For example, if the user is granted a fine-grained permission to only view predefined tags, the user cannot perform other operations on predefined tags (such as creating or deleting predefined tags) with this permission. A majority of fine-grained policies contain permissions for specific APIs. For the API actions supported by TMS, see the section "Permissions Policies and Supported Actions" in the *Tag Management Service API Reference*.
 
-:ref:`Table 1 <tms_01_0009__table18049733717>` lists all the system-defined policies and roles for TMS. Some TMS policies depend on the policies of other services to take effect. When you assign TMS permissions to users, you also assign dependent policies for the TMS permissions to take effect.
+:ref:`Table 1 <tms_01_0009__table18049733717>` lists all TMS system-defined policies and roles. Some TMS policies depend on the policies of other services to take effect. When you assign TMS permissions to users, you also assign dependent policies for the TMS permissions to take effect.
 
 .. _tms_01_0009__table18049733717:
 
-.. table:: **Table 1** System-defined permissions for TMS
+.. table:: **Table 1** TMS system-defined permissions
 
    +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Role/Policy Name   | Description                                                                                                                                                              | Type                  | Dependencies                                                                                                                                                       |
@@ -51,7 +51,7 @@ You can grant permissions by using roles and policies.
    |                    |                                                                                                                                                                          |                       | -  **VBS Administrator**: a project-level policy, which must be assigned in the same project as the **TMS Administrator** policy                                   |
    +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-:ref:`Table 2 <tms_01_0009__table748201904614>` lists the common operations supported by system-defined permissions for TMS.
+:ref:`Table 2 <tms_01_0009__table748201904614>` lists the common operations supported by TMS system-defined permissions.
 
 .. _tms_01_0009__table748201904614:
 

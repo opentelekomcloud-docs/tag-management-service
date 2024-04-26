@@ -11,11 +11,20 @@ Key TMS Operations
 
 .. table:: **Table 1** TMS operations that can be recorded by CTS
 
-   ======================== ============= ==================
-   Operation                Resource Type Trace Name
-   ======================== ============= ==================
-   Creating Predefined Tags predefineTag  addPredefineTag
-   Deleting Predefined Tags predefineTag  deletePredefineTag
-   Creating Resource Tags   application   createResourceTag
-   Deleting Resource Tags   application   deleteResourceTag
-   ======================== ============= ==================
+   +--------------------------------------------------------------------------------------------------------------+-----------------------+-------------------------+
+   | Operation                                                                                                    | Resource Type         | Trace Name              |
+   +==============================================================================================================+=======================+=========================+
+   | Creating Predefined Tags                                                                                     | predefineTag          | addPredefineTag         |
+   +--------------------------------------------------------------------------------------------------------------+-----------------------+-------------------------+
+   | Deleting Predefined Tags                                                                                     | predefineTag          | deletePredefineTag      |
+   +--------------------------------------------------------------------------------------------------------------+-----------------------+-------------------------+
+   | Creating Resource Tags                                                                                       | application           | createResourceTag       |
+   +--------------------------------------------------------------------------------------------------------------+-----------------------+-------------------------+
+   | Deleting Resource Tags                                                                                       | application           | deleteResourceTag       |
+   +--------------------------------------------------------------------------------------------------------------+-----------------------+-------------------------+
+   | Batch Removing Tags                                                                                          | resourceTag           | batchDeleteResourceTags |
+   |                                                                                                              |                       |                         |
+   | .. note::                                                                                                    |                       |                         |
+   |                                                                                                              |                       |                         |
+   |    You can perform this operation by calling an API. Currently, TMS console does not support this operation. |                       |                         |
+   +--------------------------------------------------------------------------------------------------------------+-----------------------+-------------------------+

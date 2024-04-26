@@ -11,6 +11,7 @@ Resource Tags
 -  :ref:`Adding a Resource Tag <tms_02_0007>`
 -  :ref:`Modifying Resource Tags <en-us_topic_0056266267>`
 -  :ref:`Deleting Resource Tags <tms_02_0006>`
+-  :ref:`Adding a Tag to Multiple Resources <tms_02_0003>`
 
 .. toctree::
    :maxdepth: 1
@@ -22,3 +23,4 @@ Resource Tags
    adding_a_resource_tag
    modifying_resource_tags
    deleting_resource_tags
+   adding_a_tag_to_multiple_resources

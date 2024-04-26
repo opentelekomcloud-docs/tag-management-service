@@ -9,7 +9,7 @@ TMS and Other Services
 
    TMS allows you to manage resource tags centrally. For details about services supported by TMS, see :ref:`Table 1 <en-us_topic_0056858747__table256483375112>`.
 
-   A cloud service can have multiple resource types. You can select a resource type as required on the TMS console and manage the tags of this type of resources in a centralized manner.
+   A cloud service may contain multiple resource types. You can specify a resource type and then centrally manage tags on TMS console as need.
 
    .. _en-us_topic_0056858747__table256483375112:
 

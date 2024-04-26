@@ -26,4 +26,6 @@ You can use predefined tags to quickly identify cloud resources. To create a pre
 **Follow-up Procedure**
 -----------------------
 
-When adding a tag to a cloud resource, you can directly select the created predefined tag from the drop-down list in the tag text box. You do not need to enter the key and value of the tag.
+When tagging resources, you can select a predefined tag from the drop-down list of the tag text box without the need to enter a key and value pair.
+
+For example, if there is a predefined tag whose key is **Usage** and value is **Project1**, you can directly select the key and value pair form the drop-down list of the tag text boxes.

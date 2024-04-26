@@ -5,7 +5,7 @@
 Product Profile
 ===============
 
--  :ref:`Tag Management Service <en-us_topic_0071335169>`
+-  :ref:`What Is Tag Management Service? <en-us_topic_0071335169>`
 -  :ref:`Projects <tms_02_0008>`
 -  :ref:`Region and AZ <tms_01_0003>`
 -  :ref:`Application Scenarios <en-us_topic_0056266259>`
@@ -19,7 +19,7 @@ Product Profile
    :maxdepth: 1
    :hidden: 
 
-   tag_management_service
+   what_is_tag_management_service
    projects
    region_and_az
    application_scenarios
