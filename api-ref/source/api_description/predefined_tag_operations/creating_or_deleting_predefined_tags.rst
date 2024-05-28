@@ -39,11 +39,11 @@ Request
       +-----------------+-----------------+------------------+-------------------------------------------------------------------------------------------------+
       | Name            | Mandatory       | Type             | Description                                                                                     |
       +=================+=================+==================+=================================================================================================+
-      | action          | Yes             | String           | Specifies the operation identifier.                                                             |
+      | action          | Yes             | String           | Specifies the action identifier.                                                                |
       |                 |                 |                  |                                                                                                 |
-      |                 |                 |                  | This parameter value is case sensitive and can be **create** or **delete**.                     |
+      |                 |                 |                  | The value is case sensitive and can be **create** or **delete**.                                |
       +-----------------+-----------------+------------------+-------------------------------------------------------------------------------------------------+
-      | tags            | Yes             | Array of objects | Specifies the tags.                                                                             |
+      | tags            | Yes             | Array of objects | Specifies the tags. One to fifty tags are specified.                                            |
       |                 |                 |                  |                                                                                                 |
       |                 |                 |                  | For details, see :ref:`Table 3 <en-us_topic_0056765935__en-us_topic_0056765542_table46817064>`. |
       +-----------------+-----------------+------------------+-------------------------------------------------------------------------------------------------+
@@ -59,7 +59,7 @@ Request
       +=================+=================+=================+======================================================================================================================================================================+
       | key             | Yes             | String          | Specifies the key.                                                                                                                                                   |
       |                 |                 |                 |                                                                                                                                                                      |
-      |                 |                 |                 | It cannot be left blank and can contain a maximum of 36 Unicode characters. Only digits, letters, hyphens (-), at signs (@), and underscores (_) are allowed.        |
+      |                 |                 |                 | It can contain up to 36 characters. The key cannot be empty. Only digits, letters, hyphens (-), at signs (@), and underscores (_) are allowed.                       |
       +-----------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | value           | Yes             | String          | Specifies the value.                                                                                                                                                 |
       |                 |                 |                 |                                                                                                                                                                      |
@@ -91,9 +91,7 @@ Request
 Example Response
 ----------------
 
-**Status code: 200**
-
-Successful operation
+**Status code: 204**
 
 Status Codes
 ------------
