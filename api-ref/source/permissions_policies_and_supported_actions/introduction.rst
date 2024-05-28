@@ -5,7 +5,7 @@
 Introduction
 ============
 
-You can use Identity and Access Management (IAM) for fine-grained permissions management of your TMS resources. If your account does not need individual IAM users, you can skip this section.
+You can use Identity and Access Management (IAM) to perform fine-grained permissions management for your TMS resources. If your account does not need individual IAM users, you can skip this section.
 
 A policy is a set of permissions defined in JSON format. By default, new IAM users do not have permissions assigned. You need to add a user to one or more groups, and attach permissions policies or roles to these groups. Users inherit permissions from the groups to which they are added and can perform specified operations on cloud services based on the permissions. For more information about system policies supported by TMS, see "Permissions Management" in *Tag Management Service User Guide*.
 
