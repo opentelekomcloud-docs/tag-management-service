@@ -7,14 +7,14 @@ Modifying Resource Tags
 
 .. _en-us_topic_0056266267__section303626711947:
 
-Modifying a Tag for a Cloud Resource
+Modifying a Tag Value for a Resource
 ------------------------------------
 
-In this section, modifying a tag is through modifying the value of a tag key, and the corresponding tag key remains unchanged.
+The following procedure shows how to modify a tag value for a resource.
 
 #. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image1|, and then click **Management & Deployment** > **Tag Management Service**.
 
 #. Set the resource search criteria.
 
@@ -28,38 +28,38 @@ In this section, modifying a tag is through modifying the value of a tag key, an
 
    If the key of the tag to be modified is not displayed in the list, perform the following steps:
 
-   a. In the upper right corner of the **Search Result** list, click |image1|.
+   a. In the right corner of the search result area, click |image2|.
 
-   b. Select the key of the tag to be modified from the drop-down list.
+   b. Select target keys from the drop-down list.
 
       You are advised to display no more than 10 keys.
 
-#. Locate the row containing the cloud resource whose tag you want to modify and click |image2|.
+#. Click |image3| in the row that contains the target resource.
 
-#. Enter a new tag value.
+#. Modify the tag value.
 
-#. Click |image3|.
+#. Click |image4|.
 
-   After the resource tag is modified, the cloud resources can be managed based on the new tag.
+   After the resource tag is modified, you can manage the resource with the new tag.
 
    .. note::
 
-      To modify multiple tags of a resource, repeat the preceding steps. You can also select the target resource in the list and click **Manage Tag** above the list to modify one or more tags. For details, see :ref:`Modifying Tags for Multiple Cloud Resources <en-us_topic_0056266267__section1906940111333>`.
+      To modify more tag values for a resource, repeat the preceding steps. You can also select the target resource in the list and click **Manage Tag** above the list to modify tag values. For details, see :ref:`Modifying Tag Values for Multiple Resources <en-us_topic_0056266267__section1906940111333>`.
 
 .. _en-us_topic_0056266267__section1906940111333:
 
-Modifying Tags for Multiple Cloud Resources
+Modifying Tag Values for Multiple Resources
 -------------------------------------------
 
-You can only modify tags of resources that have already been tagged.
+The following procedure shows how to modify tag values for multiple resources.
 
 .. important::
 
-   Exercise caution when modifying tags in batches. After a tag value is modified, the tag values of corresponding cloud resources will be modified and cannot be recovered.
+   Exercise caution when modifying tags in batches. After a tag value is modified, this modification applies to all resources that you selected and the modification cannot be undone.
 
 #. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image5|, and then click **Management & Deployment** > **Tag Management Service**.
 
 #. Set the resource search criteria.
 
@@ -67,20 +67,22 @@ You can only modify tags of resources that have already been tagged.
 
 #. Click **Search**.
 
-#. Select one or more target resources in the list and click **Manage Tag** above the list.
+#. Select target resources in the list and click **Manage Tag** above the list.
 
-#. In the **Edit Tag** area, specify new values for tags.
+#. In the **Edit Tag** area, set new values as needed.
 
-   All tags of the target resources are displayed in the **Edit Tag** area. You can modify one or more tags as needed.
+   You can modify values for all tag keys that are listed.
 
    .. note::
 
-      To set different values of a tag for multiple cloud resources, see :ref:`Modifying a Tag for a Cloud Resource <en-us_topic_0056266267__section303626711947>`.
+      To set different values for different resources, see :ref:`Modifying a Tag Value for a Resource <en-us_topic_0056266267__section303626711947>`.
 
 #. Click **OK**.
 
    Then you can use the modified tags to manage resources.
 
-.. |image1| image:: /_static/images/en-us_image_0238398847.png
-.. |image2| image:: /_static/images/en-us_image_0153920847.png
-.. |image3| image:: /_static/images/en-us_image_0153921664.png
+.. |image1| image:: /_static/images/en-us_image_0000001982565533.png
+.. |image2| image:: /_static/images/en-us_image_0000001980456121.png
+.. |image3| image:: /_static/images/en-us_image_0153920847.png
+.. |image4| image:: /_static/images/en-us_image_0153921664.png
+.. |image5| image:: /_static/images/en-us_image_0000001982445681.png

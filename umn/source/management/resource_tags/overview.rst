@@ -5,7 +5,7 @@
 Overview
 ========
 
-TMS allows you to easily classify and search for your resources with tags. You can manage multiple tags in a list view.
+TMS allows you to customize tags to classify your resources. You can batch manage tags in a list view.
 
 This section describes how to query resources by tag, create tag keys, and update, modify, or delete resource tags.
 

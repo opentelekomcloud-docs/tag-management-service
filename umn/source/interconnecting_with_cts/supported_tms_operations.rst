@@ -2,14 +2,24 @@
 
 .. _en-us_topic_0110866979:
 
-Key TMS Operations
-==================
+Supported TMS Operations
+========================
 
-:ref:`Table 1 <en-us_topic_0110866979__t032f2bc26b86407fb436eb796b592848>` list the TMS operations that will be recorded by CTS.
+Scenario
+--------
 
-.. _en-us_topic_0110866979__t032f2bc26b86407fb436eb796b592848:
+With Cloud Trace Service (CTS), you can record operations associated with TMS for later query, audit, and backtrack operations.
 
-.. table:: **Table 1** TMS operations that can be recorded by CTS
+Prerequisites
+-------------
+
+You have enabled CTS.
+
+
+Supported TMS Operations
+------------------------
+
+.. table:: **Table 1** TMS operations supported by CTS
 
    +--------------------------------------------------------------------------------------------------------------+-----------------------+-------------------------+
    | Operation                                                                                                    | Resource Type         | Trace Name              |
@@ -28,3 +38,8 @@ Key TMS Operations
    |                                                                                                              |                       |                         |
    |    You can perform this operation by calling an API. Currently, TMS console does not support this operation. |                       |                         |
    +--------------------------------------------------------------------------------------------------------------+-----------------------+-------------------------+
+
+Querying Traces
+---------------
+
+See `Querying Real-Time Traces <https://docs.otc.t-systems.com/cloud-trace-service/umn/getting_started/querying_real-time_traces.html>`__.

@@ -5,14 +5,14 @@
 Deleting Resource Tags
 ======================
 
-Deleting a Tag for a Cloud Resource
------------------------------------
+Deleting a Tag for a Resource
+-----------------------------
 
-To delete a tag for a cloud resource, perform the following steps:
+The following procedure shows how to delete a tag for a resource.
 
 #. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image1|, and then click **Management & Deployment** > **Tag Management Service**.
 
 #. Set the resource search criteria.
 
@@ -24,36 +24,36 @@ To delete a tag for a cloud resource, perform the following steps:
 
    If the key of the tag to be deleted is not displayed in the list, perform the following steps:
 
-   a. In the upper right corner of the **Search Result** list, click |image1|.
+   a. In the right corner of the search result area, click |image2|.
 
-   b. Select the key of the tag to be deleted from the drop-down list.
+   b. Select target keys from the drop-down list.
 
-      You are advised not to select more than 10 keys to display.
+      You are advised not to select more than 10 keys.
 
-#. Locate the row containing the resource whose tag you want to delete and click |image2|.
+#. Click |image3| in the row that contains the resource to be deleted.
 
    After a resource tag is deleted, resources cannot be managed based on the deleted tag.
 
    .. note::
 
-      To delete multiple tags of a resource, repeat the preceding steps. You can also select the target resource in the list and click **Manage Tag** above the list to delete one or more tags. For details, see :ref:`Deleting Tags for Multiple Cloud Resources <tms_02_0006__section35202115111142>`.
+      To delete multiple tags of a resource, repeat the preceding steps. You can also select the target resource in the list and click **Manage Tag** above the list to delete one or more tags. For details, see :ref:`Deleting Tags for Multiple Resources <tms_02_0006__section35202115111142>`.
 
 .. _tms_02_0006__section35202115111142:
 
-Deleting Tags for Multiple Cloud Resources
-------------------------------------------
+Deleting Tags for Multiple Resources
+------------------------------------
 
-To delete tags for multiple cloud resources, perform the following steps:
+The following procedure shows how to delete tags for multiple resources.
 
 .. important::
 
    Exercise caution when deleting tags in batches.
 
-   After you delete a tag, it will be removed from all corresponding cloud resources and you will not be able to recover it.
+   After you delete tags based on the following procedure, the tags will be deleted from all resources that are attached with the same tag key, and the deletion cannot be undone.
 
 #. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image4|, and then click **Management & Deployment** > **Tag Management Service**.
 
 #. Set the resource search criteria.
 
@@ -67,11 +67,13 @@ To delete tags for multiple cloud resources, perform the following steps:
 
 #. In the **Edit Tag** area, locate a target tag and click **Delete** in the **Operation** column.
 
-   All tags of the target resources are displayed in the **Edit Tag** area. You can delete one or more tags as needed.
+   All tags of the target resources are displayed in the **Edit Tag** area. You can delete tags as needed.
 
 #. Click **OK**.
 
-   After a resource tag is deleted, resources cannot be managed based on the deleted tag.
+   You can no longer manage related resources based on deleted tags.
 
-.. |image1| image:: /_static/images/en-us_image_0145874750.png
-.. |image2| image:: /_static/images/en-us_image_0141727100.png
+.. |image1| image:: /_static/images/en-us_image_0000001950886124.png
+.. |image2| image:: /_static/images/en-us_image_0000001949896556.png
+.. |image3| image:: /_static/images/en-us_image_0000001980537901.png
+.. |image4| image:: /_static/images/en-us_image_0000001982565529.png
