@@ -66,7 +66,7 @@ Response
    +=======================+=======================+======================================================================================================================================================================+
    | key                   | String                | Specifies the key.                                                                                                                                                   |
    |                       |                       |                                                                                                                                                                      |
-   |                       |                       | It cannot be left blank and can contain a maximum of 36 Unicode characters. Only digits, letters, hyphens (-), at signs (@), and underscores (_) are allowed.        |
+   |                       |                       | It can contain up to 36 characters. The key cannot be empty. Only digits, letters, hyphens (-), at signs (@), and underscores (_) are allowed.                       |
    +-----------------------+-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | value                 | String                | Specifies the value.                                                                                                                                                 |
    |                       |                       |                                                                                                                                                                      |
