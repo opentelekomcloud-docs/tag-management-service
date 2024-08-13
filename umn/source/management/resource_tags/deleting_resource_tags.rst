@@ -65,7 +65,7 @@ To delete tags for multiple cloud resources, perform the following steps:
 
 #. Click **Manage Tag** above the list.
 
-#. In the **Edit Tag** area, locate target tags and click **Delete** in the **Operation** column.
+#. In the **Edit Tag** area, locate a target tag and click **Delete** in the **Operation** column.
 
    All tags of the target resources are displayed in the **Edit Tag** area. You can delete one or more tags as needed.
 

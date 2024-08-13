@@ -32,7 +32,7 @@ In this section, modifying a tag is through modifying the value of a tag key, an
 
    b. Select the key of the tag to be modified from the drop-down list.
 
-      You are advised not to select more than 10 keys to display.
+      You are advised to display no more than 10 keys.
 
 #. Locate the row containing the cloud resource whose tag you want to modify and click |image2|.
 

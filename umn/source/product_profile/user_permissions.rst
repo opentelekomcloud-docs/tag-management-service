@@ -5,10 +5,10 @@
 User Permissions
 ================
 
-Permissions for the system are divided into user management and resource management permissions.
+You have permissions to manage users and resources.
 
--  User management refers to the management of users, user groups, and user group permissions.
--  Users with resource management permissions can manage the operations performed on cloud service resources.
+-  You add users to user groups so that users can inherit permissions attached to user groups which they are in.
+-  You can control which resources and what actions a user can access.
 
 To use resource tags, you must have the corresponding permissions on the cloud service. Otherwise, the tag operations on cloud resources may not take effect.
 

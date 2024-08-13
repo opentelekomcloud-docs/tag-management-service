@@ -56,6 +56,8 @@ You can tag your resources using TMS to classify and manage your resources centr
 Adding Tags on the Consoles of Other Cloud Services
 ---------------------------------------------------
 
+The following procedure shows how you add tags on the service console. This procedure may differ slightly from service to service.
+
 #. Log in to the management console.
 
 #. Under **Service List**, select the cloud service for which you need to add tags. For details about supported services and resource types, see :ref:`TMS and Other Services <en-us_topic_0056858747>`.
@@ -80,6 +82,8 @@ If you have added a tag to a resource, you can check whether the tag takes effec
 #. Log in to the management console.
 
 #. Under **Management & Deployment**, select **Tag Management Service**.
+
+#. Select the **Tag Management** tab.
 
 #. Set the resource search criteria.
 

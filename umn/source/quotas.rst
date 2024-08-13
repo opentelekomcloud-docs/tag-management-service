@@ -8,7 +8,7 @@ Quotas
 What Is Quota?
 --------------
 
-Quotas are the maximum amount of resources and capacity allowed for users to prevent waste. For example, you are allowed to create up to 500 predefined tags. You can request for an increase in quota if the existing quota does not meet your service requirements.
+Quotas are the limits put on resources to prevent waste. Each service has their own quotas. For example, you are allowed to create up to 500 predefined tags. You can request for an increase in quota if the existing quota does not meet your service requirements.
 
 How Do I View My Quotas?
 ------------------------
@@ -34,7 +34,7 @@ Before dialing the hotline number or sending an email, make sure that the follow
 
 -  Domain name, project name, and project ID, which can be obtained by performing the following operations:
 
-   Log in to the management console using the cloud account, click the username in the upper right corner, select **My Credentials** from the drop-down list, and obtain the domain name, project name, and project ID on the **My Credentials** page.
+   Sign in to the management console, click the username in the upper right corner, select **My Credentials** from the drop-down list, and obtain the domain name, project name, and project ID on the **My Credentials** page.
 
 -  Quota information, which includes:
 

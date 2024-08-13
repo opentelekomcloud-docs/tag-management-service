@@ -16,7 +16,7 @@ If duplicate tags exist between the current environment and the imported file, t
 
 When you edit imported tags, the following rules need to be followed:
 
--  You can add up to 500 predefined tags.
+-  You can create up to 500 predefined tags for each account.
 -  You can enter a maximum of 36 and 43 characters for **Key** and **Value**, respectively. Both **Key** and **Value** can contain only digits, letters, hyphens (-), at signs (@), and underscores (_).
 
 .. important::
