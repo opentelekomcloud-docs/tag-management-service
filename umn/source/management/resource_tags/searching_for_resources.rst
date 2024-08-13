@@ -22,7 +22,7 @@ Searching for Cloud Resources
 
 #. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image1|, and then click **Management & Deployment** > **Tag Management Service**.
 
 #. Set the resource search criteria.
 
@@ -34,12 +34,13 @@ Searching for Cloud Resources
 
    When there are too many resources listed or you need to locate some resources, you can use this function for quick search.
 
-#. **(Optional)** Click Reset.
+#. **(Optional)** Click **Reset**.
 
    You can reset the search criteria to search for cloud resources.
 
-#. **(Optional)** In the upper right part of the **Search Result** area, click |image1|.
+#. **(Optional)** In the upper right part of the **Search Result** area, click |image2|.
 
    The resource list is refreshed and the list refresh time is updated.
 
-.. |image1| image:: /_static/images/en-us_image_0000001756448773.png
+.. |image1| image:: /_static/images/en-us_image_0000001950886132.png
+.. |image2| image:: /_static/images/en-us_image_0000001756448773.png

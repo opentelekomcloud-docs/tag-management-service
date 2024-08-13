@@ -10,7 +10,7 @@ The following lists examples of custom policies for TMS.
 Example Custom Policies
 -----------------------
 
--  Example 1: Grant permission to view predefined tags
+-  Example 1: Granting permission to view predefined tags
 
    .. code-block::
 
@@ -26,11 +26,11 @@ Example Custom Policies
           ]
       }
 
--  Example 2: Grant permission to deny predefined tag deletion
+-  Example 2: Granting permission to deny predefined tag deletion
 
-   A policy with only "Deny" permissions must be used together with other policies. If the permissions granted to an IAM user contain both "Allow" and "Deny", the "Deny" permissions take precedence over the "Allow" permissions.
+   "Deny" permissions should be used together with "Allow" permissions. If "Deny" and "Allow" permissions are both assigned, the "Deny" permissions take precedence over the "Allow" permissions.
 
-   Assume that you want to grant the permissions of the **TMS FullAccess** to a user but want to prevent them from deleting predefined tags. You can create a custom policy for denying predefined tag deletion, and attach this policy together with the **TMS FullAccess** policy to the user. As an explicit deny in any policy overrides any allows, the user can perform all operations on these tags excepting deleting them. Example policy denying predefined tag deletion:
+   Assume that you want to grant the **TMS FullAccess** permissions to a user but do not want them to delete predefined tags. You can create a custom policy for denying predefined tag deletion, and attach this policy together with the **TMS FullAccess** policy to the user. As an explicit deny in any policy overrides any allows, the user can perform all operations on these predefined tags excepting deleting them. The following shows an example policy for denying predefined tag deletion.
 
    .. code-block::
 
@@ -46,11 +46,11 @@ Example Custom Policies
           ]
       }
 
--  Example 3: Create a custom policy containing multiple actions.
+-  Example 3: Creating a custom policy containing multiple actions.
 
-   A custom policy can contain the actions of one or multiple services that are of the same type (global or project-level).
+   A custom policy can contain actions of one or more services. To grant permissions of multiple services in a policy, ensure that the services are all of the same level (global or project).
 
-   Example policy containing multiple actions:
+   The following shows an example policy that contains multiple actions.
 
    .. code-block::
 

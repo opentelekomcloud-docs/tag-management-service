@@ -20,7 +20,7 @@ You can add tags to cloud resources in either of the following ways:
 
    .. note::
 
-      -  You are advised to use the predefined tag function. To tag a cloud resource, you can select a created predefined tag from the drop-down list. This reduces the errors and improves the efficiency.
+      -  You can use predefined tags to tag resources without the need to enter tag keys and values. Predefined tags are more efficient and less error-prone.
       -  It is strongly recommended that you do not place confidential or sensitive information (such as your customer's name, email address, or mobile number) in the tag field.
 
 Constraints
@@ -33,11 +33,11 @@ Constraints
 Adding Tags on the TMS Console
 ------------------------------
 
-You can tag your resources using TMS to classify and manage your resources centrally.
+You can tag your resources using TMS to centrally classify and manage your resources.
 
 #. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image1|, and then click **Management & Deployment** > **Tag Management Service**.
 
 #. Set the resource search criteria.
 
@@ -60,9 +60,9 @@ The following procedure shows how you add tags on the service console. This proc
 
 #. Log in to the management console.
 
-#. Under **Service List**, select the cloud service for which you need to add tags. For details about supported services and resource types, see :ref:`TMS and Other Services <en-us_topic_0056858747>`.
+#. Under **Service List**, select a target service. For details about supported services and resource types, see :ref:`TMS and Other Services <en-us_topic_0056858747>`.
 
-#. On the displayed console of the selected cloud service, click the resource to which you want to add a tag.
+#. On the displayed service console, click the resource to which you want to add a tag.
 
 #. Select the **Tags** tab.
 
@@ -81,7 +81,7 @@ If you have added a tag to a resource, you can check whether the tag takes effec
 
 #. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image2|, and then click **Management & Deployment** > **Tag Management Service**.
 
 #. Select the **Tag Management** tab.
 
@@ -94,3 +94,6 @@ If you have added a tag to a resource, you can check whether the tag takes effec
 #. Click **Search**.
 
    The resource is displayed in the **Search Result** list.
+
+.. |image1| image:: /_static/images/en-us_image_0000001982565541.png
+.. |image2| image:: /_static/images/en-us_image_0000001982445689.png

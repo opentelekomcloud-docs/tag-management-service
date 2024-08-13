@@ -5,7 +5,7 @@
 TMS and Other Services
 ======================
 
--  Services that support TMS
+-  **Services supported by TMS**
 
    TMS allows you to manage resource tags centrally. For details about services supported by TMS, see :ref:`Table 1 <en-us_topic_0056858747__table256483375112>`.
 
@@ -65,7 +65,7 @@ TMS and Other Services
       +------------------------------------+----------------------------------------+
       | GaussDB                            | GaussDB instance                       |
       +------------------------------------+----------------------------------------+
-      | GaussDB NoSQL                      | GeminiDB-Instance                      |
+      | GeminiDB                           | GeminiDB-Instance                      |
       +------------------------------------+----------------------------------------+
       | Image Management Service (IMS)     | IMS-Private image                      |
       +------------------------------------+----------------------------------------+
@@ -88,7 +88,7 @@ TMS and Other Services
       +------------------------------------+----------------------------------------+
       | VPC Endpoint (VPCEP)               | -  VPC-Endpoint                        |
       |                                    |                                        |
-      |                                    | -  VPC-Endpoint service                |
+      |                                    | -  VPC endpoint service                |
       +------------------------------------+----------------------------------------+
       | Virtual Private Cloud (VPC)        | -  VPC-VPC                             |
       |                                    | -  VPC-Subnet                          |

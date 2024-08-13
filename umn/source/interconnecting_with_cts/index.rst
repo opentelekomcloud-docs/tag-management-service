@@ -5,12 +5,10 @@
 Interconnecting with CTS
 ========================
 
--  :ref:`Key TMS Operations <en-us_topic_0110866979>`
--  :ref:`Querying Real-Time Traces <en-us_topic_0110866980>`
+-  :ref:`Supported TMS Operations <en-us_topic_0110866979>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   key_tms_operations
-   querying_real-time_traces
+   supported_tms_operations

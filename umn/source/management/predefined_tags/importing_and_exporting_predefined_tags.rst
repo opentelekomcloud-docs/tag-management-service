@@ -2,15 +2,15 @@
 
 .. _en-us_topic_0056266555:
 
-Importing or Exporting Predefined Tags
-======================================
+Importing and Exporting Predefined Tags
+=======================================
 
 Constraints and Limitations
 ---------------------------
 
-You can import a .csv file from a third party to TMS. The encoding format of the .csv file must be UTF-8.
+You can only import CSV files that use UTF-8 encoding.
 
-Tag files or templates downloaded with Internet Explorer 9 cannot be imported to TMS via other browsers, and vice versa those downloaded with other browsers cannot be imported to TMS via Internet Explore 9.
+Tag files or templates downloaded with Internet Explorer 9 cannot be imported to TMS via other browsers, and vice versa those downloaded with other browsers cannot be imported to TMS via Internet Explorer 9.
 
 If duplicate tags exist between the current environment and the imported file, the tags of the current environment will be overwritten after the import.
 
@@ -21,22 +21,22 @@ When you edit imported tags, the following rules need to be followed:
 
 .. important::
 
-   Predefined tag importation does not support .csv files that have been modified in Excel files. Attempting to import such files will produce garbled characters and result in an importation failure. To edit a .csv file, open it with notepad.
+   If you edit a CSV file with Excel and then import the file to TMS, the tags will be garbled. To edit a CSV file, open it with notepad.
 
 Importing Predefined Tags
 -------------------------
 
-If you have inventory tags, you can quickly import them to the TMS predefined tags to facilitate subsequent resource association.
+You can batch import tags to TMS, and then attach them to your resources.
 
 To import predefined tags, perform the following steps:
 
 #. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image1|. Select **Management & Deployment** > **Tag Management Service**.
 
 #. Click **Predefined Tags**.
 
-#. Click **Download template (CSV file)**.
+#. Click **Download template (CSV file)** in the message that is displayed above the list.
 
 #. Fill in the template by referring to the format of existing tags.
 
@@ -52,7 +52,7 @@ Exporting Predefined Tags
 To export predefined tags for editing, perform the following steps:
 
 #. Log in to the management console.
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image2|. Select **Management & Deployment** > **Tag Management Service**.
 #. Click **Predefined Tags**.
 #. You can export predefined tags in either of the following ways:
 
@@ -60,6 +60,9 @@ To export predefined tags for editing, perform the following steps:
 
       The .csv file is generated, and all predefined tags are exported.
 
-   b. Select target predefined tags and click **Export**.
+   b. Select the predefined tags to be exported and click **Export**.
 
       The .csv file is generated, and selected predefined tags are exported.
+
+.. |image1| image:: /_static/images/en-us_image_0000001950886112.png
+.. |image2| image:: /_static/images/en-us_image_0000001982565521.png

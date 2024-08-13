@@ -7,7 +7,7 @@ Deleting Predefined Tags
 
 #. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image1|. Select **Management & Deployment** > **Tag Management Service**.
 
 #. Click **Predefined Tags**.
 
@@ -22,3 +22,5 @@ Deleting Predefined Tags
    .. note::
 
       You can also click **Delete** in the **Operation** column to delete a specific tag.
+
+.. |image1| image:: /_static/images/en-us_image_0000001982445669.png

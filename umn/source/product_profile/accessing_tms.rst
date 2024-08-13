@@ -5,7 +5,7 @@
 Accessing TMS
 =============
 
-The cloud platform provides a web-based service management platform. You can use either of the following ways to access TMS:
+You can access TMS from the management console, or using application programming interfaces (APIs).
 
 -  APIs
 

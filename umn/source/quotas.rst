@@ -34,7 +34,7 @@ Before dialing the hotline number or sending an email, make sure that the follow
 
 -  Domain name, project name, and project ID, which can be obtained by performing the following operations:
 
-   Sign in to the management console, click the username in the upper right corner, select **My Credentials** from the drop-down list, and obtain the domain name, project name, and project ID on the **My Credentials** page.
+   Log in to the management console, click the username in the upper right corner, select **My Credentials** from the drop-down list, and obtain the domain name, project name, and project ID on the **My Credentials** page.
 
 -  Quota information, which includes:
 

@@ -5,12 +5,12 @@
 Application Scenarios
 =====================
 
-TMS is useful in the following typical application scenarios:
+This section describes two typical application scenarios for TMS.
 
-Central Management of Resources
+Centralized Resource Management
 -------------------------------
 
-For users who have many cloud resources, TMS allows them to quickly locate all of their resources with specific tags. TMS also provides a unified tag management platform, on which users can check, modify, or delete tags.
+TMS allows you to search among a wealth of cloud resources with specific tags. You can review, modify, and delete tags in a unified manner.
 
 
 .. figure:: /_static/images/en-us_image_0174331264.png
@@ -18,17 +18,17 @@ For users who have many cloud resources, TMS allows them to quickly locate all o
 
    **Figure 1** Central management of resources
 
-Quick Identification of Resources Migrated and to Be Migrated
--------------------------------------------------------------
+Resource Migration
+------------------
 
-For users who need to migrate large numbers of resources, TMS allows for the import and export of predefined tags. This improves the accuracy and efficiency of resource migration while eliminating the need to set tags each time.
+If you need to migrate large numbers of resources, you can create or import predefined tags in batches for these resources. You can also export predefined tags to batch modify them. This improves the accuracy and efficiency of resource migration while eliminating the need to repeatedly set tags.
 
--  Creating predefined tags: You can create predefined tags on TMS before migrating resources. After resources are migrated, they can be associated directly with predefined tags.
+-  Creating predefined tags: You can create predefined tags before the migration, and then add these tags to the migrated resources.
 
--  Importing and exporting predefined tags: If you have inventory tags, you can quickly import them to the predefined tag library of TMS. After resources are migrated, you can associate those resources with predefined tags. In addition, you can export predefined tags for editing.
+-  You can batch import predefined tags and add them to migrated resources. You can also export predefined tags for editing.
 
 
    .. figure:: /_static/images/en-us_image_0000001079874496.png
-      :alt: **Figure 2** Quick identification of resources migrated and to be migrated
+      :alt: **Figure 2** Adding predefined tags to migrated resources
 
-      **Figure 2** Quick identification of resources migrated and to be migrated
+      **Figure 2** Adding predefined tags to migrated resources

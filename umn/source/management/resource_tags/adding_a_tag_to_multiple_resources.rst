@@ -10,9 +10,9 @@ On the TMS console, you can search for all tags in a specified region. You can a
 Searching for Tags
 ------------------
 
-#. Sign in to the management console.
+#. Log in to the management console.
 
-#. Under **Management & Deployment**, select **Tag Management Service**.
+#. In the upper left corner of the page, click |image1|, and then click **Management & Deployment** > **Tag Management Service**.
 
 #. Select the **Resource Tagging** tab.
 
@@ -20,10 +20,10 @@ Searching for Tags
 
    Search results are displayed in the **Search Result** list.
 
-#. In the search box above the tag list, select specific keys or values or both to narrow down the result.
+#. In the search box above the tag list, select specific keys or values or both to narrow down the results.
 
-Attaching Resources to Tags
----------------------------
+Tagging Resources
+-----------------
 
 You can use the searched tags to tag resources.
 
@@ -38,6 +38,8 @@ You can use the searched tags to tag resources.
    -  **ID**: Enter one or more resource IDs. Up to 500 resource IDs can be entered.
    -  **List**: Select one or more resources in the resource list. Up to 50 resources can be selected at the same time.
 
-   If you need to tag more resources, you can repeat the resource tagging operation for multiple times.
+   If you need to tag more resources, you can repeat the resource tagging procedure.
 
 #. Click **OK**.
+
+.. |image1| image:: /_static/images/en-us_image_0000001982445677.png

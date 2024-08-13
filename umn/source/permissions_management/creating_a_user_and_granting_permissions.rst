@@ -18,7 +18,7 @@ If your account does not need individual IAM users, skip this section.
 Prerequisites
 -------------
 
-Before granting permissions, learn about the TMS permissions and select the permissions as required. For details about the system-defined permissions supported by TMS, see :ref:`TMS Permissions <tms_01_0009__section1814075113611>`. To grant permissions for other services, learn about all `permissions <https://docs.otc.t-systems.com/permissions/index.html>`__.
+Before granting permissions, learn about the TMS permissions and select the permissions as required. For details about the system-defined permissions supported by TMS, see :ref:`TMS Permissions <tms_01_0009__section1814075113611>`. To grant permissions for other services, you can see `permissions <https://docs.otc.t-systems.com/identity-access-management/permissions/permissions.html>`__.
 
 Flowchart
 ---------
