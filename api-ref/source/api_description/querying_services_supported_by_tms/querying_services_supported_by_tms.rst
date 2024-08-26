@@ -203,7 +203,7 @@ Successful operation
            },
            {
                "provider": "nosql",
-               "provider_i18n_display_name": "GaussDBNoSQL",
+               "provider_i18n_display_name": "geminidb",
                "resource_types": [
                    {
                        "global": false,
