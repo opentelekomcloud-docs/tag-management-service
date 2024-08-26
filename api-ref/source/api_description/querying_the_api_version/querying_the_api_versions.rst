@@ -24,6 +24,10 @@ Example request
 
    GET https://{TMS endpoint}/
 
+.. note::
+
+   You can obtain the TMS endpoints from `Regions and Endpoints <https://docs.otc.t-systems.com/regions-and-endpoints/index.html>`__.
+
 Response
 --------
 
