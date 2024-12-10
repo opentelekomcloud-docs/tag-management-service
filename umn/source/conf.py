@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'tms-umn.tex',
-     u'Tag Management Service - User Guide',
+    u'Tag Management Service - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 

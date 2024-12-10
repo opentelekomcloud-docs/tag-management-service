@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'tms-api-ref.tex',
-     u'Tag Management Service - API Reference',
+    u'Tag Management Service - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 

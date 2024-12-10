@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'tms-best-practice.tex',
-     u'Tag Management Service - Best Practice',
+    u'Tag Management Service - Best Practice',
      u'OpenTelekomCloud', 'manual'),
 ]
 
