@@ -7,7 +7,6 @@
     vars:
       sphinx_pdf_files:
         - tms-umn.pdf
-        - tms-best-practice.pdf
         - tms-api-ref.pdf
     check:
       jobs:
