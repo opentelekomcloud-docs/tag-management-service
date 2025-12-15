@@ -5,11 +5,11 @@ Tag Management Service - User Guide
 .. toctree::
    :maxdepth: 1
 
-   product_profile/index
-   getting_started
-   management/index
+   service_overview/index
+   getting_started/index
+   tag_management/index
    permissions_management/index
-   interconnecting_with_cts/index
+   recording_tms_operations_using_cts
    quotas
    faqs/index
    change_history

@@ -5,7 +5,7 @@
 Creating a User and Granting Permissions
 ========================================
 
-This section describes how to use `IAM <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__ to implement fine-grained permissions control for your TMS resources. With IAM, you can:
+This section describes how to use `Identity and Access Management (IAM) <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__ to implement fine-grained permissions control for your TMS resources. With IAM, you can:
 
 -  Create IAM users for employees based on your organizational structure. Each IAM user has their own security credentials for accessing TMS resources.
 -  Grant users only the permissions required to perform a given task based on their job responsibilities.
