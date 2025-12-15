@@ -15,9 +15,7 @@ How Do I View My Quotas?
 
 #. Log in to the management console.
 
-#. Click |image1| in the upper left corner and select the desired region and project.
-
-#. In the upper right corner of the page, click |image2|.
+#. In the upper right corner of the page, click |image1|.
 
    The **Service Quota** page is displayed.
 
@@ -44,5 +42,4 @@ Before dialing the hotline number or sending an email, make sure that the follow
 
 `Learn how to obtain the service hotline and email address. <https://open-telekom-cloud.com/en/contact>`__
 
-.. |image1| image:: /_static/images/en-us_image_0000001701681948.png
-.. |image2| image:: /_static/images/en-us_image_0000001701522432.png
+.. |image1| image:: /_static/images/en-us_image_0000001701522432.png

@@ -23,7 +23,7 @@ Procedure
 
 #. (Optional) Click **Default level**.
 
-   If the security level is set to **Cutsom level**, reset it to **Default level**.
+   If the security level is set to **Custom level**, reset it to **Default level**.
 
 #. Move the security level slider to set the security level to **Medium**.
 
